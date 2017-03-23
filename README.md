@@ -12,12 +12,16 @@ Putovanja su uvijek lijepa iskustva, jer svako predstavlja novu avanturu. S tim 
 ## Procesi
 
 *	Prijava administratora
+
 Aplikacija posjeduje supervizora za smještaj, jelo i piće, noćni provod, aktivnosti, kupovinu i kulturu i znamenitosti, te glavnog administratora. Supervizori imaju pregled svih rezervacija u njihovoj kategoriji kao i zahtjeva za kreiranje i ažuriranje novih objekata, dok glavni administrator ima pregled svih supervizora, mogućnost registrovanja novog i brisanja postojećeg, kao i uvid u same kategorije. Prilikom prijave unosi se koristničko ime i šifra, te dobija obavijest ukoliko je prijava neuspješna.
-*	Registracija novog supervizora 
+*	Registracija novog supervizora
+
 Glavni administrator aplikacije ima mogućnost popunjavanja forme čime se određenoj osobi daju privilegije supervizora određene kategorije. Nakon uspješne registracije, supervizor ima mogućnost pristupa aplikaciji
 *	Rezervacija smještaja
+
 Svaki smještaj nudi rezervaciju soba uz popunjavanja forme. Moguć je i popust od 10% za osobe čija je starosna dob između 18 i 25 godina. Nakon provjere raspoloživosti odabranog smještaja, kao potvrdu rezervacije korisnik dobija QR kod, koji će biti skeniran prilikom dolaska u smještaj.
 *	Kreiranje novog mjesta
+
 Svaki korisnik ima mogućnost kreiranja novog objekta, uz popunjavanje svih potrebnih podataka kao i odabira lokacije na karti grada. Nakon kreiranja, zahtjev se šalje supervizoru odabrane kategorije za potvrdu.
 
 ## Funkcionalnosti
@@ -50,5 +54,7 @@ Svaki korisnik ima mogućnost kreiranja novog objekta, uz popunjavanje svih potr
 ## Akteri
 
 *Gost* – korisnik aplikacije kojem je omogućen pregled kategorija, objekata, pretraživanje, kao i stvaranje novog objekta
+
 *Administrator aplikacije* – glavni administrator (admin) ima pregled svih supervizora, mogućnost registrovanja novog i brisanja postojećeg, kao i uvid u same kategorije
+
 *Supervizor* - ima pregled svih rezervacija u njegovoj kategoriji kao i zahtjeva za kreiranje novih objekata
