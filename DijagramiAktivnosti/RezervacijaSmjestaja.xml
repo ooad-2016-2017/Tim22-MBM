@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Lusi" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="untitled" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="MpXGoNqGAqAOAgTz" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="MpXGoNqGAqAOAgT0" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="OpXGoNqGAqAOAgT1" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="OpXGoNqGAqAOAgT2" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="OpXGoNqGAqAOAgT3" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="OpXGoNqGAqAOAgT4" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="OpXGoNqGAqAOAgT5" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="uinGoNqGAqAOAgAH" Name="boolean" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:23.837" PmLastModified="2017-03-25T13:14:24.009" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="kKnGoNqGAqAOAgAI" Name="byte" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.009" PmLastModified="2017-03-25T13:14:24.009" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="kKnGoNqGAqAOAgAJ" Name="char" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.009" PmLastModified="2017-03-25T13:14:24.009" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAK" Name="double" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAL" Name="float" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAM" Name="int" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAN" Name="long" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAO" Name="short" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GKnGoNqGAqAOAgAP" Name="void" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.024" PmLastModified="2017-03-25T13:14:24.024" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="FKnGoNqGAqAOAgAQ" Name="string" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:14:24.040" PmLastModified="2017-03-25T13:14:24.040" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<ActivitySwimlane2 Documentation_plain="" Id="31ZmoNqGAqAOAgVF" Name="Swimlane" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:17:29.851" PmLastModified="2017-03-25T13:17:29.851" QualityScore="-1" UserIDLastNumericValue="0">
+			<VerticalPartitions>
+				<ActivityPartition Idref="WNZmoNqGAqAOAgVJ" Name="Gost"/>
+				<ActivityPartition Idref="ktZmoNqGAqAOAgVP" Name="Sarajevo Go"/>
+			</VerticalPartitions>
+			<MasterView>
+				<ActivitySwimlane2 Idref="31ZmoNqGAqAOAgVE" Name="Swimlane"/>
+			</MasterView>
+			<ModelChildren>
+				<ActivityPartition Documentation_plain="" Id="WNZmoNqGAqAOAgVJ" Name="Gost" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:17:29.882" PmLastModified="2017-03-25T13:17:45.109" QualityScore="-1" UserIDLastNumericValue="0">
+					<ContainedElements>
+						<InitialNode Idref="oV0WoNqGAqAOAgVt" Name=""/>
+						<DecisionNode Idref="95.ZoNqGAqAOAgxh" Name=""/>
+						<ActivityAction Idref="OOk5oNqGAqAOAgy8" Name="Potvrda rezervacije"/>
+					</ContainedElements>
+					<MasterView>
+						<ActivityPartitionHeader Idref="WNZmoNqGAqAOAgVI" Name="Gost"/>
+					</MasterView>
+				</ActivityPartition>
+				<ActivityPartition Documentation_plain="" Id="ktZmoNqGAqAOAgVP" Name="Sarajevo Go" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:17:29.929" PmLastModified="2017-03-25T13:17:57.336" QualityScore="-1" UserIDLastNumericValue="0">
+					<ContainedElements>
+						<Activity Idref="5hMuoNqGAqAOAgae" Name="Provjera dostupnosti smjestaja"/>
+						<Activity Idref="Ri4BoNqGAqAOAgfI" Name="Obavjestenje gostu"/>
+						<Activity Idref="EvCBoNqGAqAOAgfo" Name="Obracun cijene"/>
+						<Activity Idref="JoohoNqGAqAOAgib" Name="Obracunavanje popusta"/>
+						<DecisionNode Idref="I.qhoNqGAqAOAgjj" Name=""/>
+						<ActivityAction Idref="_YuhoNqGAqAOAgkP" Name="Obracunaj popust 10%"/>
+						<ActivityAction Idref="nX8JoNqGAqAOAgsY" Name="Prikazi iznos za placanje"/>
+						<ActivityAction Idref="9x15oNqGAqAOAgz5" Name="Generisanje koda za rezervaciju"/>
+					</ContainedElements>
+					<MasterView>
+						<ActivityPartitionHeader Idref="nNZmoNqGAqAOAgVO" Name="Sarajevo Go"/>
+					</MasterView>
+				</ActivityPartition>
+				<InitialNode Documentation_plain="" Id="oV0WoNqGAqAOAgVt" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:20:01.285" PmLastModified="2017-03-25T13:20:01.300" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="X7quoNqGAqAOAgbE" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<InitialNode Idref="oV0WoNqGAqAOAgVs" Name=""/>
+					</MasterView>
+				</InitialNode>
+				<Activity BodyFontSize="0" Documentation_plain="" Id="5hMuoNqGAqAOAgae" Name="Provjera dostupnosti smjestaja" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:33:11.271" PmLastModified="2017-03-25T13:33:17.794" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="z49.oNqGAqAOAgeO" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="axMuoNqGAqAOAgaj" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Activity Idref="ZhMuoNqGAqAOAgad" Name="Provjera dostupnosti smjestaja"/>
+					</MasterView>
+				</Activity>
+				<Activity BodyFontSize="0" Documentation_plain="" Id="Ri4BoNqGAqAOAgfI" Name="Obavjestenje gostu" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:45:56.194" PmLastModified="2017-03-25T13:46:23.049" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="YpdBoNqGAqAOAghW" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="Xa4BoNqGAqAOAgfN" Name="[Smjestaj nedostupan]"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Activity Idref="Ri4BoNqGAqAOAgfH" Name="Obavjestenje gostu"/>
+					</MasterView>
+				</Activity>
+				<Activity BodyFontSize="0" Documentation_plain="" Id="EvCBoNqGAqAOAgfo" Name="Obracun cijene" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:46:35.848" PmLastModified="2017-03-25T13:46:54.646" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="uYohoNqGAqAOAgig" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="ofCBoNqGAqAOAgft" Name="[Smjestaj dostupan]"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Activity Idref="4vCBoNqGAqAOAgfn" Name="Obracun cijene"/>
+					</MasterView>
+				</Activity>
+				<Activity BodyFontSize="0" Documentation_plain="" Id="JoohoNqGAqAOAgib" Name="Obracunavanje popusta" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:50:09.380" PmLastModified="2017-03-25T13:50:25.121" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="9.qhoNqGAqAOAgjo" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="uYohoNqGAqAOAgig" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<Activity Idref="JoohoNqGAqAOAgia" Name="Obracunavanje popusta"/>
+					</MasterView>
+				</Activity>
+				<DecisionNode Documentation_plain="" Id="I.qhoNqGAqAOAgjj" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:51:16.548" PmLastModified="2017-03-25T13:51:39.384" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="d4uhoNqGAqAOAgkU" Name="[Starosna dob gosta 18-25]"/>
+						<ControlFlow Idref="bJVhoNqGAqAOAglC" Name="[Starosna dob gosta nije 18-25]"/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="9.qhoNqGAqAOAgjo" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<DecisionNode Idref="I.qhoNqGAqAOAgji" Name=""/>
+					</MasterView>
+				</DecisionNode>
+				<ActivityAction Documentation_plain="" Id="_YuhoNqGAqAOAgkP" Leaf="false" MustIsolate="false" Name="Obracunaj popust 10%" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:51:47.775" PmLastModified="2017-03-25T13:52:05.008" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="vzepoNqGAqAOAgwj" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="d4uhoNqGAqAOAgkU" Name="[Starosna dob gosta 18-25]"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="_YuhoNqGAqAOAgkO" Name="Obracunaj popust 10%"/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityAction Documentation_plain="" Id="nX8JoNqGAqAOAgsY" Leaf="false" MustIsolate="false" Name="Prikazi iznos za placanje" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:04:00.185" PmLastModified="2017-03-25T14:10:53.705" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="vF.ZoNqGAqAOAgxl" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="H38JoNqGAqAOAgsd" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="nX8JoNqGAqAOAgsX" Name="Prikazi iznos za placanje"/>
+					</MasterView>
+				</ActivityAction>
+				<DecisionNode Documentation_plain="" Id="95.ZoNqGAqAOAgxh" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:13:48.783" PmLastModified="2017-03-25T14:14:11.020" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="Nh5ZoNqGAqAOAgyF" Name="[Ne odgovaraju uslovi]"/>
+						<ControlFlow Idref="Guk5oNqGAqAOAgzB" Name="[Odgovaraju uslovi]"/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="vF.ZoNqGAqAOAgxl" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<DecisionNode Idref="95.ZoNqGAqAOAgxg" Name=""/>
+					</MasterView>
+				</DecisionNode>
+				<ActivityAction Documentation_plain="" Id="OOk5oNqGAqAOAgy8" Leaf="false" MustIsolate="false" Name="Potvrda rezervacije" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:16:40.092" PmLastModified="2017-03-25T14:19:48.725" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="Zl15oNqGAqAOAgz9" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="Guk5oNqGAqAOAgzB" Name="[Odgovaraju uslovi]"/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="2Ok5oNqGAqAOAgy7" Name="Potvrda rezervacije"/>
+					</MasterView>
+				</ActivityAction>
+				<ActivityAction Documentation_plain="" Id="9x15oNqGAqAOAgz5" Leaf="false" MustIsolate="false" Name="Generisanje koda za rezervaciju" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:18:59.823" PmLastModified="2017-03-25T14:19:58.395" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<FromSimpleRelationships>
+						<ControlFlow Idref="SeP5oNqGAqAOAg0m" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<ControlFlow Idref="Zl15oNqGAqAOAgz9" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<ActivityAction Idref="9x15oNqGAqAOAgz4" Name="Generisanje koda za rezervaciju"/>
+					</MasterView>
+				</ActivityAction>
+			</ModelChildren>
+		</ActivitySwimlane2>
+		<Activity BodyFontSize="0" Documentation_plain="" Id="mEouoNqGAqAOAgZu" Name="Unos podataka" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:32:40.985" PmLastModified="2017-03-25T13:39:34.179" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="axMuoNqGAqAOAgaj" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="1MeuoNqGAqAOAgbd" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Activity Idref="GEouoNqGAqAOAgZt" Name="Unos podataka"/>
+			</MasterView>
+		</Activity>
+		<ControlFlow Documentation_plain="" From="mEouoNqGAqAOAgZu" Guard="" Id="axMuoNqGAqAOAgaj" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:33:11.382" PmLastModified="2017-03-25T13:39:34.179" QualityScore="-1" To="5hMuoNqGAqAOAgae" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="YJMuoNqGAqAOAgak"/>
+			</MasterView>
+		</ControlFlow>
+		<Activity BodyFontSize="0" Documentation_plain="" Id="NbquoNqGAqAOAgbA" Name="Izbor smjestaja" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:33:49.484" PmLastModified="2017-03-25T13:33:55.480" Postcondition="" Precondition="" QualityScore="-1" ReadOnly="false" Reentrant="false" SingleExecution="false" UserIDLastNumericValue="0">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="1MeuoNqGAqAOAgbd" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="X7quoNqGAqAOAgbE" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Activity Idref="NbquoNqGAqAOAga_" Name="Izbor smjestaja"/>
+			</MasterView>
+		</Activity>
+		<ControlFlow Documentation_plain="" From="oV0WoNqGAqAOAgVt" Guard="" Id="X7quoNqGAqAOAgbE" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:33:49.562" PmLastModified="2017-03-25T13:33:55.481" QualityScore="-1" To="NbquoNqGAqAOAgbA" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="UHquoNqGAqAOAgbF"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="NbquoNqGAqAOAgbA" Guard="" Id="1MeuoNqGAqAOAgbd" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:34:23.659" PmLastModified="2017-03-25T13:39:34.179" QualityScore="-1" To="mEouoNqGAqAOAgZu" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="3MeuoNqGAqAOAgbe"/>
+			</MasterView>
+		</ControlFlow>
+		<DecisionNode Documentation_plain="" Id="qY9.oNqGAqAOAgeK" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:44:17.173" PmLastModified="2017-03-25T13:44:41.346" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="Xa4BoNqGAqAOAgfN" Name="[Smjestaj nedostupan]"/>
+				<ControlFlow Idref="ofCBoNqGAqAOAgft" Name="[Smjestaj dostupan]"/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="z49.oNqGAqAOAgeO" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<DecisionNode Idref="qY9.oNqGAqAOAgeJ" Name=""/>
+			</MasterView>
+		</DecisionNode>
+		<ControlFlow Documentation_plain="" From="5hMuoNqGAqAOAgae" Guard="" Id="z49.oNqGAqAOAgeO" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:44:17.267" PmLastModified="2017-03-25T13:44:41.347" QualityScore="-1" To="qY9.oNqGAqAOAgeK" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="SE9.oNqGAqAOAgeP"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="qY9.oNqGAqAOAgeK" Guard="" Id="Xa4BoNqGAqAOAgfN" Leaf="false" Name="[Smjestaj nedostupan]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:45:56.538" PmLastModified="2017-03-25T13:48:09.292" QualityScore="-1" To="Ri4BoNqGAqAOAgfI" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="l64BoNqGAqAOAgfO" Name="[Smjestaj nedostupan]"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="qY9.oNqGAqAOAgeK" Guard="" Id="ofCBoNqGAqAOAgft" Leaf="false" Name="[Smjestaj dostupan]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:46:35.909" PmLastModified="2017-03-25T13:48:14.811" QualityScore="-1" To="EvCBoNqGAqAOAgfo" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="SfCBoNqGAqAOAgfu" Name="[Smjestaj dostupan]"/>
+			</MasterView>
+		</ControlFlow>
+		<FlowFinalNode Documentation_plain="" Id="FxdBoNqGAqAOAghS" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:48:37.096" PmLastModified="2017-03-25T13:48:37.112" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<ToSimpleRelationships>
+				<ControlFlow Idref="YpdBoNqGAqAOAghW" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<FlowFinalNode Idref="FxdBoNqGAqAOAghR" Name=""/>
+			</MasterView>
+		</FlowFinalNode>
+		<ControlFlow Documentation_plain="" From="Ri4BoNqGAqAOAgfI" Guard="" Id="YpdBoNqGAqAOAghW" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:48:37.190" PmLastModified="2017-03-25T13:48:37.190" QualityScore="-1" To="FxdBoNqGAqAOAghS" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="YpdBoNqGAqAOAghX"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="EvCBoNqGAqAOAgfo" Guard="" Id="uYohoNqGAqAOAgig" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:50:09.437" PmLastModified="2017-03-25T13:50:25.121" QualityScore="-1" To="JoohoNqGAqAOAgib" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="Y0ohoNqGAqAOAgih"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="JoohoNqGAqAOAgib" Guard="" Id="9.qhoNqGAqAOAgjo" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:51:16.591" PmLastModified="2017-03-25T13:51:39.384" QualityScore="-1" To="I.qhoNqGAqAOAgjj" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="3.qhoNqGAqAOAgjp"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="I.qhoNqGAqAOAgjj" Guard="" Id="d4uhoNqGAqAOAgkU" Leaf="false" Name="[Starosna dob gosta 18-25]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:51:47.822" PmLastModified="2017-03-25T13:53:16.283" QualityScore="-1" To="_YuhoNqGAqAOAgkP" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="f4uhoNqGAqAOAgkV" Name="[Starosna dob gosta 18-25]"/>
+			</MasterView>
+		</ControlFlow>
+		<ActivityAction Documentation_plain="" Id="HxVhoNqGAqAOAgk." Leaf="false" MustIsolate="false" Name="Oznaci popust 0%" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:52:42.872" PmLastModified="2017-03-25T13:52:51.980" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="0nNxoNqGAqAOAgqs" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="bJVhoNqGAqAOAglC" Name="[Starosna dob gosta nije 18-25]"/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<ActivityAction Idref="HxVhoNqGAqAOAgk9" Name="Oznaci popust 0%"/>
+			</MasterView>
+		</ActivityAction>
+		<ControlFlow Documentation_plain="" From="I.qhoNqGAqAOAgjj" Guard="" Id="bJVhoNqGAqAOAglC" Leaf="false" Name="[Starosna dob gosta nije 18-25]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T13:52:42.934" PmLastModified="2017-03-25T13:53:43.782" QualityScore="-1" To="HxVhoNqGAqAOAgk." UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<FromSimpleRelationships>
+				<GenericConnector Idref="srcxoNqGAqAOAgpl" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<GenericConnector Idref="srcxoNqGAqAOAgpl" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<ControlFlow Idref="apVhoNqGAqAOAglD" Name="[Starosna dob gosta nije 18-25]"/>
+			</MasterView>
+		</ControlFlow>
+		<MergeNode Documentation_plain="" Id="_bNxoNqGAqAOAgqo" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:01:36.575" PmLastModified="2017-03-25T14:10:16.588" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="H38JoNqGAqAOAgsd" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="0nNxoNqGAqAOAgqs" Name=""/>
+				<ControlFlow Idref="vzepoNqGAqAOAgwj" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<MergeNode Idref="9bNxoNqGAqAOAgqn" Name=""/>
+			</MasterView>
+		</MergeNode>
+		<ControlFlow Documentation_plain="" From="HxVhoNqGAqAOAgk." Guard="" Id="0nNxoNqGAqAOAgqs" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:01:36.715" PmLastModified="2017-03-25T14:10:16.620" QualityScore="-1" To="_bNxoNqGAqAOAgqo" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="XnNxoNqGAqAOAgqt"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="_bNxoNqGAqAOAgqo" Guard="" Id="H38JoNqGAqAOAgsd" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:04:00.248" PmLastModified="2017-03-25T14:10:53.705" QualityScore="-1" To="nX8JoNqGAqAOAgsY" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="EP8JoNqGAqAOAgse"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="_YuhoNqGAqAOAgkP" Guard="" Id="vzepoNqGAqAOAgwj" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:09:23.325" PmLastModified="2017-03-25T14:10:16.651" QualityScore="-1" To="_bNxoNqGAqAOAgqo" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="6LepoNqGAqAOAgwk"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="nX8JoNqGAqAOAgsY" Guard="" Id="vF.ZoNqGAqAOAgxl" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:13:48.861" PmLastModified="2017-03-25T14:14:11.020" QualityScore="-1" To="95.ZoNqGAqAOAgxh" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="ul.ZoNqGAqAOAgxm"/>
+			</MasterView>
+		</ControlFlow>
+		<ActivityAction Documentation_plain="" Id="7B5ZoNqGAqAOAgyB" Leaf="false" MustIsolate="false" Name="Odustajanje" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:14:21.111" PmLastModified="2017-03-25T14:16:32.764" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromSimpleRelationships>
+				<ControlFlow Idref="dyI5oNqGAqAOAgyh" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<ControlFlow Idref="Nh5ZoNqGAqAOAgyF" Name="[Ne odgovaraju uslovi]"/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<ActivityAction Idref="bB5ZoNqGAqAOAgyA" Name="Odustajanje"/>
+			</MasterView>
+		</ActivityAction>
+		<ControlFlow Documentation_plain="" From="95.ZoNqGAqAOAgxh" Guard="" Id="Nh5ZoNqGAqAOAgyF" Leaf="false" Name="[Ne odgovaraju uslovi]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:14:21.164" PmLastModified="2017-03-25T14:18:13.500" QualityScore="-1" To="7B5ZoNqGAqAOAgyB" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="nh5ZoNqGAqAOAgyG" Name="[Ne odgovaraju uslovi]"/>
+			</MasterView>
+		</ControlFlow>
+		<FlowFinalNode Documentation_plain="" Id="VSI5oNqGAqAOAgyd" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:16:18.986" PmLastModified="2017-03-25T14:16:18.990" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<ToSimpleRelationships>
+				<ControlFlow Idref="dyI5oNqGAqAOAgyh" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<FlowFinalNode Idref="lSI5oNqGAqAOAgyc" Name=""/>
+			</MasterView>
+		</FlowFinalNode>
+		<ControlFlow Documentation_plain="" From="7B5ZoNqGAqAOAgyB" Guard="" Id="dyI5oNqGAqAOAgyh" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:16:19.054" PmLastModified="2017-03-25T14:16:32.764" QualityScore="-1" To="VSI5oNqGAqAOAgyd" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="kKI5oNqGAqAOAgyi"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="95.ZoNqGAqAOAgxh" Guard="" Id="Guk5oNqGAqAOAgzB" Leaf="false" Name="[Odgovaraju uslovi]" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:16:40.152" PmLastModified="2017-03-25T14:19:48.741" QualityScore="-1" To="OOk5oNqGAqAOAgy8" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="9uk5oNqGAqAOAgzC" Name="[Odgovaraju uslovi]"/>
+			</MasterView>
+		</ControlFlow>
+		<ControlFlow Documentation_plain="" From="OOk5oNqGAqAOAgy8" Guard="" Id="Zl15oNqGAqAOAgz9" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:19:00.198" PmLastModified="2017-03-25T14:19:58.395" QualityScore="-1" To="9x15oNqGAqAOAgz5" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="qV15oNqGAqAOAgz."/>
+			</MasterView>
+		</ControlFlow>
+		<ActivityFinalNode Documentation_plain="" Id="r2P5oNqGAqAOAg0i" Leaf="false" MustIsolate="false" Name="" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:20:08.949" PmLastModified="2017-03-25T14:20:08.960" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<ToSimpleRelationships>
+				<ControlFlow Idref="SeP5oNqGAqAOAg0m" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<ActivityFinalNode Idref="Z2P5oNqGAqAOAg0h" Name=""/>
+			</MasterView>
+		</ActivityFinalNode>
+		<ControlFlow Documentation_plain="" From="9x15oNqGAqAOAgz5" Guard="" Id="SeP5oNqGAqAOAg0m" Leaf="false" PmAuthor="Lusi" PmCreateDateTime="2017-03-25T14:20:09.106" PmLastModified="2017-03-25T14:20:09.113" QualityScore="-1" To="r2P5oNqGAqAOAg0i" UserIDLastNumericValue="0" Visibility="Unspecified" Weight="">
+			<MasterView>
+				<ControlFlow Idref="veP5oNqGAqAOAg0n"/>
+			</MasterView>
+		</ControlFlow>
+	</Models>
+</Project>
