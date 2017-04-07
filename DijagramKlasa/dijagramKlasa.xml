@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Korisnik" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="dijagramKlasa" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="false" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="PxYq4tqD.AAAAQhw" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="PxYq4tqD.AAAAQhx" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="PxYq4tqD.AAAAQhy" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="PxYq4tqD.AAAAQhz" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="PxYq4tqD.AAAAQh0" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="PxYq4tqD.AAAAQh1" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="PxYq4tqD.AAAAQh2" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUB" Name="boolean" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUC" Name="byte" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUD" Name="char" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUE" Name="double" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUF" Name="float" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUG" Name="int" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="GiYq4tqD.AAAAQUH" Name="long" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.760" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="FiYq4tqD.AAAAQUI" Name="short" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.776" PmLastModified="2017-04-07T14:15:29.484" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="FiYq4tqD.AAAAQUJ" Name="void" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.776" PmLastModified="2017-04-07T14:15:29.484" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="FiYq4tqD.AAAAQUK" Name="string" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:32:44.776" PmLastModified="2017-04-07T14:15:29.484" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Class Abstract="true" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="EaaD4tqD.AAAAQix" Leaf="false" Name="Korisnik" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:31:48.488" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="RnSj4tqD.AAAAQkF" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Username" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:35:56.514" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="PgOj4tqD.AAAAQkm" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Password" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:36:33.916" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="7Ixj4tqD.AAAAQk3" Leaf="false" Name="Korisnik" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:37:02.775" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="true" ConnectToCodeModel="1" Documentation_plain="" Id="BJsT4tqD.AAAAQmA" Leaf="false" Name="getUsername" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:39:56.832" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="true" ConnectToCodeModel="1" Documentation_plain="" Id="G61T4tqD.AAAAQm1" Leaf="false" Name="getPassword" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:41:58.872" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+			</ModelChildren>
+			<FromSimpleRelationships>
+				<Generalization Idref="00uL4tqD.AAAAQnk" Name=""/>
+				<Generalization Idref="UVQ74tqD.AAAAQrV" Name=""/>
+			</FromSimpleRelationships>
+			<MasterView>
+				<Class Idref="EaaD4tqD.AAAAQiw" Name="Korisnik"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="NUuL4tqD.AAAAQng" Leaf="false" Name="Administrator" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:49:45.004" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="u0sr4tqD.AAAAQo1" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="listaSupervizora" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:53:01.661" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="XdSr4tqD.AAAAQo8" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:53:24.410" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="m9Sr4tqD.AAAAQo." Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:53:24.441" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo BindedType="Supervizor" Documentation_plain="" Id="l9Sr4tqD.AAAAQo_" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:53:24.457" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="xAur4tqD.AAAAQpQ" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="listaKategorija" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:54:06.499" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="ozBr4tqD.AAAAQpW" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:54:22.021" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="ozBr4tqD.AAAAQpX" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:54:22.021" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo BindedType="Kategorija" Documentation_plain="" Id="ozBr4tqD.AAAAQpY" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:54:22.021" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="TU1r4tqD.AAAAQpd" Leaf="false" Name="DodajSupervizora" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:55:04.498" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="oPbr4tqD.AAAAQpk" Multiplicity="Unspecified" Name="sup" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:55:52.709" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Type="Supervizor" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="ZZpb4tqD.AAAAQqk" Leaf="false" Name="ObrisiSupervizora" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:59:03.846" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="sgnb4tqD.AAAAQqq" Multiplicity="Unspecified" Name="sup" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:00:23.373" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Type="Supervizor" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<FromSimpleRelationships>
+				<Usage Idref="y61yEtqD.AAAARMO" Name=""/>
+			</FromSimpleRelationships>
+			<ToSimpleRelationships>
+				<Generalization Idref="00uL4tqD.AAAAQnk" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="NUuL4tqD.AAAAQnf" Name="Administrator"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="2lQ74tqD.AAAAQrR" Leaf="false" Name="Supervizor" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:01:02.811" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="1Sg34tqD.AAAAQtg" Leaf="false" Name="Supervizor" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:18:25.835" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="fTY34tqD.AAAAQtm" Multiplicity="Unspecified" Name="username" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:18:48.382" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="fTY34tqD.AAAAQtn" Multiplicity="Unspecified" Name="password" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:18:48.382" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="czY34tqD.AAAAQto" Multiplicity="Unspecified" Name="tip" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:18:48.398" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="BCx34tqD.AAAAQuQ" Leaf="false" Name="DodajObjekat" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:20:44.960" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="5O934tqD.AAAAQuW" Multiplicity="Unspecified" Name="naziv" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:21:34.887" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="7O934tqD.AAAAQuX" Multiplicity="Unspecified" Name="broj" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:21:34.903" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="7O934tqD.AAAAQuY" Multiplicity="Unspecified" Name="www" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:21:34.903" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="4u934tqD.AAAAQuZ" Multiplicity="Unspecified" Name="detalji" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:21:34.919" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="4u934tqD.AAAAQua" Multiplicity="Unspecified" Name="Slika" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:21:34.919" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="Image" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="ZspX4tqD.AAAAQs_" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="listaObjekata" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:16:30.822" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="djFX4tqD.AAAAQtF" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:16:45.422" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="djFX4tqD.AAAAQtG" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:16:45.422" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo BindedType="Kategorija" Documentation_plain="" Id="djFX4tqD.AAAAQtH" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:16:45.422" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="9kbX4tqD.AAAAQtS" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="listaZahtjeva" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:17:40.207" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" ReadOnly="false" Scope="instance" Type="List" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<TemplateTypeBindInfo>
+						<TemplateTypeBindInfo BindedType="List" Documentation_plain="" Id="GrXX4tqD.AAAAQtY" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:17:59.384" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Details>
+								<TemplateTypeBindDetails Documentation_plain="" Id="GrXX4tqD.AAAAQtZ" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:17:59.384" QualityScore="-1" UserIDLastNumericValue="0" Wildcard="Non Wildcard">
+									<Arguments>
+										<TemplateTypeBindInfo BindedType="Kategorija" Documentation_plain="" Id="GrXX4tqD.AAAAQta" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:17:59.384" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Arguments>
+								</TemplateTypeBindDetails>
+							</Details>
+						</TemplateTypeBindInfo>
+					</TemplateTypeBindInfo>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="Qj18EtqD.AAAARFu" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="TipSupervizora" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:48:42.690" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="Ihd8EtqD.AAAARF0" Leaf="false" Name="getTipSupervizora" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:48:53.956" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="Ihd8EtqD.AAAARF1" Leaf="false" Name="setTipSupervizora" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:48:53.956" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="yhd8EtqD.AAAARF2" Multiplicity="Unspecified" Name="TipSupervizora" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:48:53.971" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="UVQ74tqD.AAAAQrV" Name=""/>
+				<Usage Idref="y61yEtqD.AAAARMO" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="2lQ74tqD.AAAAQrQ" Name="Supervizor"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="2UVv4tqD.AAAAQul" Leaf="false" Name="Kategorija" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:29:57.531" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="X9jv4tqD.AAAAQvD" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Tip" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:30:28.602" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="UOKf4tqD.AAAAQvZ" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="NazivObjekta" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:32:50.698" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id=".Wdf4tqD.AAAAQwf" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Adresa" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:37.087" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="hlDf4tqD.AAAAQwm" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Telefon" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:46.241" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="Int" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="Nyzf4tqD.AAAAQwt" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Web" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:57.132" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="fHbf4tqD.AAAAQw0" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Info" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:35:11.806" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="String" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="_UI_4tqD.AAAAQw7" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Slika" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:06.207" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" ReadOnly="false" Scope="instance" Type="Image" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="ulDf4tqD.AAAAQwj" Leaf="false" Name="getAdresa" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:46.237" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="elDf4tqD.AAAAQwk" Leaf="false" Name="setAdresa" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:46.238" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="BlDf4tqD.AAAAQwl" Multiplicity="Unspecified" Name="Adresa" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:46.240" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="Nyzf4tqD.AAAAQwq" Leaf="false" Name="getTelefon" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:57.132" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnType="Int" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="Nyzf4tqD.AAAAQwr" Leaf="false" Name="setTelefon" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:57.132" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="Nyzf4tqD.AAAAQws" Multiplicity="Unspecified" Name="Telefon" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:34:57.132" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Type="Int" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="fHbf4tqD.AAAAQwx" Leaf="false" Name="getWeb" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:35:11.806" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="fHbf4tqD.AAAAQwy" Leaf="false" Name="setWeb" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:35:11.806" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="fHbf4tqD.AAAAQwz" Multiplicity="Unspecified" Name="Web" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:35:11.806" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="_UI_4tqD.AAAAQw4" Leaf="false" Name="getInfo" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:06.207" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnType="String" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="_UI_4tqD.AAAAQw5" Leaf="false" Name="setInfo" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:06.207" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="_UI_4tqD.AAAAQw6" Multiplicity="Unspecified" Name="Info" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:06.207" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="WGI_4tqD.AAAAQxC" Leaf="false" Name="getSlika" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:07.066" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnType="Image" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="VGI_4tqD.AAAAQxD" Leaf="false" Name="setSlika" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:07.082" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="VGI_4tqD.AAAAQxE" Multiplicity="Unspecified" Name="slika" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:36:07.082" PmLastModified="2017-04-07T14:15:29.516" QualityScore="-1" Type="Image" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<FromSimpleRelationships>
+				<Generalization Idref="9tef4tqD.AAAAQwN" Name=""/>
+				<Generalization Idref="61GkEtqD.AAAAQ9c" Name=""/>
+				<Generalization Idref="w7.0EtqD.AAAARAK" Name=""/>
+				<Generalization Idref="9fZ0EtqD.AAAARAg" Name=""/>
+				<Generalization Idref="pX90EtqD.AAAARBE" Name=""/>
+				<Generalization Idref="5dHMEtqD.AAAARDK" Name=""/>
+			</FromSimpleRelationships>
+			<MasterView>
+				<Class Idref="2UVv4tqD.AAAAQuk" Name="Kategorija"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id=".tef4tqD.AAAAQwJ" Leaf="false" Name="Smjestaj" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:33:32.767" PmLastModified="2017-04-07T14:19:59.766" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="cFwwEtqD.AAAAQzo" InitialValue="5" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="BrojDvokrevetnih" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:53:32.558" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="true" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="Ek2IEtqD.AAAAQ2I" InitialValue="5" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="BrojTrokrevetnih" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:59:31.016" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="wCeIEtqD.AAAAQ2M" InitialValue="5" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="BrojCetverokrevetnih" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:59:43.747" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="9e4oEtqD.AAAAQ24" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="CijenaPoNoci" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:02:32.623" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="J4coEtqD.AAAAQ2_" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="dorucak" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:02:59.812" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" Type="bool" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="7AioEtqD.AAAAQ3G" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="rucak" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:03:11.671" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" Type="bool" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="bbioEtqD.AAAAQ3N" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="vecera" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:03:15.126" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" ReadOnly="false" Scope="instance" Type="bool" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="J4coEtqD.AAAAQ28" Leaf="false" Name="getCijenaPoNoci" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:02:59.812" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="J4coEtqD.AAAAQ29" Leaf="false" Name="setCijenaPoNoci" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:02:59.812" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="J4coEtqD.AAAAQ2." Multiplicity="Unspecified" Name="CijenaPoNoci" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:02:59.812" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="9tef4tqD.AAAAQwN" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref=".tef4tqD.AAAAQwI" Name="Smjestaj"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="5FQ4EtqD.AAAAQ5c" Leaf="false" Name="RezervacijaSmjestaja" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:10:57.063" PmLastModified="2017-04-07T14:19:59.781" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="xPyEEtqD.AAAAQ75" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="smjestaj" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:16:30.115" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<Class Idref=".tef4tqD.AAAAQwJ" Name="Smjestaj"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id=".y.oEtqD.AAAAQ4S" Leaf="false" Name="IzracunajKonacnuCijenu" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:04:10.207" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="qM4YEtqD.AAAAQ4V" Multiplicity="Unspecified" Name="dolazak" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.589" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="DateTime" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="qM4YEtqD.AAAAQ4W" Multiplicity="Unspecified" Name="odlazak" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.589" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="DateTime" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="qM4YEtqD.AAAAQ4X" Multiplicity="Unspecified" Name="soba" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.589" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="pM4YEtqD.AAAAQ4Y" Multiplicity="Unspecified" Name="godiste" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.605" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="Int" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="pM4YEtqD.AAAAQ4Z" Multiplicity="Unspecified" Name="d" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.605" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="bool" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="pM4YEtqD.AAAAQ4a" Multiplicity="Unspecified" Name="r" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.605" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="bool" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="LM4YEtqD.AAAAQ4b" Multiplicity="Unspecified" Name="v" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:06:53.620" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="bool" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="K3OYEtqD.AAAAQ4." Leaf="false" Name="ProvjeraDostupnosti" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:08:22.612" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Query="false" ReturnType="Bool" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="eARYEtqD.AAAAQ5E" Multiplicity="Unspecified" Name="soba" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:08:43.422" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="NLeEEtqD.AAAAQ8g" Leaf="false" Name="GenerisiKod" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:17:14.668" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="X2wqEtqD.AAAARPh" Leaf="false" Name="Popust" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:12:10.362" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Query="false" ReturnType="Bool" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="38kqEtqD.AAAARPn" Multiplicity="Unspecified" Name="godiste" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:12:34.171" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="5FQ4EtqD.AAAAQ5b" Name="RezervacijaSmjestaja"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="Q1GkEtqD.AAAAQ9Y" Leaf="false" Name="NocniZivot" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:21:11.618" PmLastModified="2017-04-07T14:21:15.039" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="HBpkEtqD.AAAAQ9r" InitialValue="15" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="BrojStolova" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:22:04.216" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="9BFkEtqD.AAAAQ9z" Leaf="false" Name="getBrojStolova" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:22:16.495" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="9BFkEtqD.AAAAQ90" Leaf="false" Name="setBrojStolova" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:22:16.495" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="9BFkEtqD.AAAAQ91" Multiplicity="Unspecified" Name="BrojStolova" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:22:16.495" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="61GkEtqD.AAAAQ9c" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="g1GkEtqD.AAAAQ9X" Name="NocniZivot"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="0FwUEtqD.AAAAQ.M" Leaf="false" Name="RezervacijaKafica" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:24:07.563" PmLastModified="2017-04-07T14:21:15.054" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="6roUEtqD.AAAAQ.W" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="kafic" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:24:16.599" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<Class Idref="Q1GkEtqD.AAAAQ9Y" Name="NocniZivot"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="VMMUEtqD.AAAAQ.u" Leaf="false" Name="ProvjeraDostupnosti" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:24:42.666" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Query="false" ReturnType="bool" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="LOaUEtqD.AAAAQ.0" Multiplicity="Unspecified" Name="sto" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:25:24.660" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="j1tUEtqD.AAAAQ_z" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="VrijemeDolaska" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:26:59.825" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" ReadOnly="false" Scope="instance" Type="DateTime" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="0FwUEtqD.AAAAQ.L" Name="RezervacijaKafica"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="xb.0EtqD.AAAARAG" Leaf="false" Name="Shopping" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:30:25.315" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ToSimpleRelationships>
+				<Generalization Idref="w7.0EtqD.AAAARAK" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="xb.0EtqD.AAAARAF" Name="Shopping"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="CfZ0EtqD.AAAARAc" Leaf="false" Name="Aktivnost" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:30:54.480" PmLastModified="2017-04-07T14:15:29.391" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ToSimpleRelationships>
+				<Generalization Idref="9fZ0EtqD.AAAARAg" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="CfZ0EtqD.AAAARAb" Name="Aktivnost"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="6n90EtqD.AAAARBA" Leaf="false" Name="Kultura" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:31:31.031" PmLastModified="2017-04-07T14:22:35.571" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="fTv0EtqD.AAAARBn" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="CijenaOdrasli" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:27.966" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="oDgMEtqD.AAAARBu" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="CijenaDjeca" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:44.165" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="KuwMEtqD.AAAARB1" InitialValue="50" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="BrojMjesta" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:51.156" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</Type>
+				</Attribute>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="oDgMEtqD.AAAARBr" Leaf="false" Name="getCijenaOdrasli" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:44.165" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="oDgMEtqD.AAAARBs" Leaf="false" Name="setCijenaOdrasli" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:44.165" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="oDgMEtqD.AAAARBt" Multiplicity="Unspecified" Name="CijenaOdrasli" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:44.165" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="cuwMEtqD.AAAARBy" Leaf="false" Name="getCijenaDjeca" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:51.150" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="CuwMEtqD.AAAARBz" Leaf="false" Name="setCijenaDjeca" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:51.152" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="yuwMEtqD.AAAARB0" Multiplicity="Unspecified" Name="CijenaDjeca" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:32:51.155" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="OJEMEtqD.AAAARB5" Leaf="false" Name="getBrojMjesta" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:33:12.092" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+					</ReturnType>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="OJEMEtqD.AAAARB6" Leaf="false" Name="setBrojMjesta" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:33:12.092" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="OJEMEtqD.AAAARB7" Multiplicity="Unspecified" Name="BrojMjesta" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:33:12.092" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" TypeModifier="" UserIDLastNumericValue="0">
+							<Type>
+								<DataType Idref="GiYq4tqD.AAAAQUG" Name="int"/>
+							</Type>
+						</Parameter>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="pX90EtqD.AAAARBE" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="6n90EtqD.AAAARA_" Name="Kultura"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="zPcMEtqD.AAAARCc" Leaf="false" Name="RezervacijaKarte" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:33:38.227" PmLastModified="2017-04-07T14:22:35.579" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="fsKMEtqD.AAAARCg" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="mjesto" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:33:59.806" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+					<Type>
+						<Class Idref="6n90EtqD.AAAARBA" Name="Kultura"/>
+					</Type>
+				</Attribute>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="HC6MEtqD.AAAARCk" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="VrijemeDolaska" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:34:12.280" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" ReadOnly="false" Scope="instance" Type="DateTime" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="WpWMEtqD.AAAARCt" Leaf="false" Name="ProvjeraDostupnosti" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:34:25.882" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnType="Bool" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="EXeMEtqD.AAAARCw" Multiplicity="Unspecified" Name="odrasli" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:34:43.592" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="EXeMEtqD.AAAARCx" Multiplicity="Unspecified" Name="djeca" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:34:43.592" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="GXeMEtqD.AAAARCy" Leaf="false" Name="IzracunajCijenu" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:34:43.608" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="GiYq4tqD.AAAAQUE" Name="double"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="q81MEtqD.AAAARC4" Multiplicity="Unspecified" Name="odrasli" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:35:34.101" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+						<Parameter Direction="inout" Documentation_plain="" Id="J81MEtqD.AAAARC5" Multiplicity="Unspecified" Name="djeca" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:35:34.116" PmLastModified="2017-04-07T14:15:29.406" QualityScore="-1" Type="String" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<MasterView>
+				<Class Idref="zPcMEtqD.AAAARCb" Name="RezervacijaKarte"/>
+			</MasterView>
+		</Class>
+		<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="EdHMEtqD.AAAARDG" Leaf="false" Name="JeloIPice" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:36:29.320" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ModelChildren>
+				<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="jMIsEtqD.AAAARDt" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="Meni" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:37:16.337" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" ReadOnly="false" Scope="instance" Type="Image" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="74osEtqD.AAAARD0" Leaf="false" Name="getMeni" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:37:20.119" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Query="false" ReturnType="Image" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true"/>
+				<Operation Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="74osEtqD.AAAARD1" Leaf="false" Name="setMeni" Ordered="false" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:37:20.119" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Query="false" ReturnTypeDocumentation_plain="" Scope="instance" Static="false" TypeModifier="" Unique="true" UserIDLastNumericValue="0" Visibility="public" Visible="true">
+					<ReturnType>
+						<DataType Idref="FiYq4tqD.AAAAQUJ" Name="void"/>
+					</ReturnType>
+					<ModelChildren>
+						<Parameter Direction="inout" Documentation_plain="" Id="74osEtqD.AAAARD2" Multiplicity="Unspecified" Name="Meni" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:37:20.119" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Type="Image" TypeModifier="" UserIDLastNumericValue="0"/>
+					</ModelChildren>
+				</Operation>
+			</ModelChildren>
+			<ToSimpleRelationships>
+				<Generalization Idref="5dHMEtqD.AAAARDK" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Class Idref="EdHMEtqD.AAAARDF" Name="JeloIPice"/>
+			</MasterView>
+		</Class>
+		<Stereotype Abstract="false" BaseType="Usage" Documentation_plain="" IconPath="" Id="kT5yEtqD.AAAARLv" Leaf="false" Name="create" PmAuthor="Korisnik" PmCreateDateTime="2017-03-13T22:19:02.576" PmLastModified="2017-04-07T14:15:29.500" QualityScore="-1" Root="false" UserIDLastNumericValue="0"/>
+		<ModelRelationshipContainer Documentation_plain="" Id="DALqEtqD.AAAARQE" Name="relationships" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:15:29.328" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" UserIDLastNumericValue="0">
+			<ModelChildren>
+				<ModelRelationshipContainer Documentation_plain="" Id="DALqEtqD.AAAARQF" Name="Generalization" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:15:29.328" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="EaaD4tqD.AAAAQix" Id="00uL4tqD.AAAAQnk" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T11:49:45.035" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Substitutable="false" To="NUuL4tqD.AAAAQng" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="20uL4tqD.AAAAQnl"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="EaaD4tqD.AAAAQix" Id="UVQ74tqD.AAAAQrV" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:01:02.858" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Substitutable="false" To="2lQ74tqD.AAAAQrR" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="UVQ74tqD.AAAAQrW"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="9tef4tqD.AAAAQwN" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T12:33:32.783" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Substitutable="false" To=".tef4tqD.AAAAQwJ" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="9tef4tqD.AAAAQwO"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="61GkEtqD.AAAAQ9c" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:21:11.639" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" Substitutable="false" To="Q1GkEtqD.AAAAQ9Y" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="O1GkEtqD.AAAAQ9d"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="w7.0EtqD.AAAARAK" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:30:25.347" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Substitutable="false" To="xb.0EtqD.AAAARAG" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="w7.0EtqD.AAAARAL"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="9fZ0EtqD.AAAARAg" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:30:54.511" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Substitutable="false" To="CfZ0EtqD.AAAARAc" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="t_Z0EtqD.AAAARAh"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="pX90EtqD.AAAARBE" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:31:31.109" PmLastModified="2017-04-07T14:15:29.344" QualityScore="-1" Substitutable="false" To="6n90EtqD.AAAARBA" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="rX90EtqD.AAAARBF"/>
+							</MasterView>
+						</Generalization>
+						<Generalization ConnectToCodeModel="1" Documentation_plain="" From="2UVv4tqD.AAAAQul" Id="5dHMEtqD.AAAARDK" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:36:29.351" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" Substitutable="false" To="EdHMEtqD.AAAARDG" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<MasterView>
+								<Generalization Idref="5dHMEtqD.AAAARDL"/>
+							</MasterView>
+						</Generalization>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+				<ModelRelationshipContainer Documentation_plain="" Id="DALqEtqD.AAAARQG" Name="Association" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:15:29.328" PmLastModified="2017-04-07T14:22:35.581" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="NUuL4tqD.AAAAQng" EndRelationshipToMetaModelElement="2UVv4tqD.AAAAQul" Id="uuqCEtqD.AAAARGG" Leaf="false" OrderingInProfile="-1" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:51:33.469" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="NUuL4tqD.AAAAQng" Id="tuqCEtqD.AAAARGI" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Navigable="Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:51:33.485" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="tuqCEtqD.AAAARGK" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:51:33.485" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="NUuL4tqD.AAAAQng" Name="Administrator"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="2UVv4tqD.AAAAQul" Id="tuqCEtqD.AAAARGL" JavaCodeAttributeName="" Leaf="false" Multiplicity="0..*" Navigable="Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:51:33.485" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="tuqCEtqD.AAAARGM" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T13:51:33.485" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="2UVv4tqD.AAAAQul" Name="Kategorija"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="vuqCEtqD.AAAARGN"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="5FQ4EtqD.AAAAQ5c" EndRelationshipToMetaModelElement=".tef4tqD.AAAAQwJ" Id="vvTaEtqD.AAAARRT" Leaf="false" OrderingInProfile="-1" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:19:47.197" PmLastModified="2017-04-07T14:20:28.520" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="5FQ4EtqD.AAAAQ5c" Id="vvTaEtqD.AAAARRU" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Non Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:19:47.197" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="vvTaEtqD.AAAARRV" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:19:47.197" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="5FQ4EtqD.AAAAQ5c" Name="RezervacijaSmjestaja"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement=".tef4tqD.AAAAQwJ" Id="vvTaEtqD.AAAARRW" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Navigable="Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:19:47.197" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="vvTaEtqD.AAAARRX" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:19:47.197" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref=".tef4tqD.AAAAQwJ" Name="Smjestaj"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="MfTaEtqD.AAAARRY"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="0FwUEtqD.AAAAQ.M" EndRelationshipToMetaModelElement="Q1GkEtqD.AAAAQ9Y" Id="vEfaEtqD.AAAARSB" Leaf="false" OrderingInProfile="-1" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:20:32.957" PmLastModified="2017-04-07T14:22:35.578" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="0FwUEtqD.AAAAQ.M" Id="vEfaEtqD.AAAARSC" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Non Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:20:32.957" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="vEfaEtqD.AAAARSD" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:20:32.957" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="0FwUEtqD.AAAAQ.M" Name="RezervacijaKafica"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Q1GkEtqD.AAAAQ9Y" Id="vEfaEtqD.AAAARSE" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Navigable="Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:20:32.957" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="vEfaEtqD.AAAARSF" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:20:32.957" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="Q1GkEtqD.AAAAQ9Y" Name="NocniZivot"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="skfaEtqD.AAAARSG"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="zPcMEtqD.AAAARCc" EndRelationshipToMetaModelElement="6n90EtqD.AAAARBA" Id="lGM6EtqD.AAAARTE" Leaf="false" OrderingInProfile="-1" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:21:31.305" PmLastModified="2017-04-07T14:22:35.571" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="zPcMEtqD.AAAARCc" Id="lGM6EtqD.AAAARTF" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Non Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:21:31.305" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="lGM6EtqD.AAAARTG" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:21:31.305" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="zPcMEtqD.AAAARCc" Name="RezervacijaKarte"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="6n90EtqD.AAAARBA" Id="lGM6EtqD.AAAARTH" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Navigable="Navigable" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:21:31.305" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier Documentation_plain="" Id="VGM6EtqD.AAAARTI" Name="" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:21:31.306" QualityScore="-1" UserIDLastNumericValue="0"/>
+									</Qualifier>
+									<Type>
+										<Class Idref="6n90EtqD.AAAARBA" Name="Kultura"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="HGM6EtqD.AAAARTJ"/>
+							</MasterView>
+						</Association>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+				<ModelRelationshipContainer Documentation_plain="" Id="DALqEtqD.AAAARQH" Name="Usage" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:15:29.328" PmLastModified="2017-04-07T14:15:29.453" QualityScore="-1" UserIDLastNumericValue="0">
+					<ModelChildren>
+						<Usage Documentation_plain="" From="NUuL4tqD.AAAAQng" Id="y61yEtqD.AAAARMO" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T14:06:09.619" PmLastModified="2017-04-07T14:15:29.359" QualityScore="-1" To="2lQ74tqD.AAAAQrR" UserIDLastNumericValue="0" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="kT5yEtqD.AAAARLv" Name="create"/>
+							</Stereotypes>
+							<MasterView>
+								<Usage Idref="m61yEtqD.AAAARMP"/>
+							</MasterView>
+						</Usage>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+	</Models>
+	<Diagrams>
+		<ClassDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GeneralizationSetNotation="2" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="573" HideEmptyTaggedValues="false" Id="GO0q4tqD.AAAAQh4" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="Class Diagram1" PaintConnectorThroughLabel="1" PmAuthor="Korisnik" PmCreateDateTime="2017-04-07T09:33:05.944" PmLastModified="2017-04-07T14:22:31.406" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowAssociationNavigationArrows="3" ShowAttributeGetterSetter="false" ShowAttributesCodeDetails="2" ShowAttributesPropertyModifiers="2" ShowAttributesType="1" ShowClassEmptyCompartments="2" ShowClassOwner="2" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="true" ShowEllipsisForUnshownClassMembers="2" ShowInformationItemOption="2" ShowLegend="false" ShowOperationsCodeDetails="2" ShowOperationsParameters="1" ShowOperationsReturnType="1" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowPackageOwner="2" ShowParametersCodeDetails="2" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" ShowTemplateInfoOfGeneralizationAndRealization="false" SuppressImplied1MultiplicityForAttributeAndAssociationEnd="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="1364" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+			<Shapes>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="83" Id="EdHMEtqD.AAAARDF" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="EdHMEtqD.AAAARDG" Model="EdHMEtqD.AAAARDG" ModelElementNameAlignment="9" Name="JeloIPice" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="193" WpMbs="false" X="1104" Y="33" ZOrder="2">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="193" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="105" Id="zPcMEtqD.AAAARCb" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="zPcMEtqD.AAAARCc" Model="zPcMEtqD.AAAARCc" ModelElementNameAlignment="9" Name="RezervacijaKarte" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="303" WpMbs="false" X="65" Y="517" ZOrder="4">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="303" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="170" Id="6n90EtqD.AAAARA_" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="6n90EtqD.AAAARBA" Model="6n90EtqD.AAAARBA" ModelElementNameAlignment="9" Name="Kultura" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="239" WpMbs="false" X="1201" Y="183" ZOrder="6">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="239" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="40" Id="CfZ0EtqD.AAAARAb" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="CfZ0EtqD.AAAARAc" Model="CfZ0EtqD.AAAARAc" ModelElementNameAlignment="9" Name="Aktivnost" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="80" WpMbs="false" X="817" Y="23" ZOrder="8">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="80" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="40" Id="xb.0EtqD.AAAARAF" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="xb.0EtqD.AAAARAG" Model="xb.0EtqD.AAAARAG" ModelElementNameAlignment="9" Name="Shopping" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="80" WpMbs="false" X="923" Y="23" ZOrder="10">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="80" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="72" Id="0FwUEtqD.AAAAQ.L" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="0FwUEtqD.AAAAQ.M" Model="0FwUEtqD.AAAAQ.M" ModelElementNameAlignment="9" Name="RezervacijaKafica" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="303" WpMbs="false" X="394" Y="533" ZOrder="12">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="303" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="69" Id="g1GkEtqD.AAAAQ9X" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="Q1GkEtqD.AAAAQ9Y" Model="Q1GkEtqD.AAAAQ9Y" ModelElementNameAlignment="9" Name="NocniZivot" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="224" WpMbs="false" X="1141" Y="405" ZOrder="14">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="224" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="117" Id="5FQ4EtqD.AAAAQ5b" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="5FQ4EtqD.AAAAQ5c" Model="5FQ4EtqD.AAAAQ5c" ModelElementNameAlignment="9" Name="RezervacijaSmjestaja" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="632" WpMbs="false" X="65" Y="381" ZOrder="16">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="632" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="176" Id=".tef4tqD.AAAAQwI" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement=".tef4tqD.AAAAQwJ" Model=".tef4tqD.AAAAQwJ" ModelElementNameAlignment="9" Name="Smjestaj" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="328" WpMbs="false" X="785" Y="461" ZOrder="18">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="328" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="282" Id="2UVv4tqD.AAAAQuk" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="2UVv4tqD.AAAAQul" Model="2UVv4tqD.AAAAQul" ModelElementNameAlignment="9" Name="Kategorija" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="212" WpMbs="false" X="843" Y="109" ZOrder="20">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="212" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="132" Id="2lQ74tqD.AAAAQrQ" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="2lQ74tqD.AAAAQrR" Model="2lQ74tqD.AAAAQrR" ModelElementNameAlignment="9" Name="Supervizor" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="453" WpMbs="false" X="353" Y="163" ZOrder="22">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="453" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="102" Id="NUuL4tqD.AAAAQnf" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="NUuL4tqD.AAAAQng" Model="NUuL4tqD.AAAAQng" ModelElementNameAlignment="9" Name="Administrator" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="217" WpMbs="false" X="25" Y="208" ZOrder="24">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="217" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+				<Class AttributeSortType="0" Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="ClassDiagram" DisplayAsRobustnessAnalysisIcon="true" EnumerationLiteralSortType="0" Foreground="rgb(0, 0, 0)" Height="102" Id="EaaD4tqD.AAAAQiw" InterfaceBall="false" KShDrOp="false" KSwCsMbSt="true" LShCmMl="false" LshRfAts="true" MShDrAt="false" MSwTpPts="true" MetaModelElement="EaaD4tqD.AAAAQix" Model="EaaD4tqD.AAAAQix" ModelElementNameAlignment="9" Name="Korisnik" OperationSortType="0" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowAttributeType="1" ShowAttributesCodeDetails="0" ShowAttributesPropertyModifiers="0" ShowAttributesType="0" ShowClassMemberConstraints="true" ShowEllipsisForUnshownMembers="0" ShowEmptyCompartments="0" ShowEnumerationLiteralType="1" ShowInitialAttributeValue="true" ShowOperationParameterDirection="false" ShowOperationProperties="false" ShowOperationRaisedExceptions="false" ShowOperationSignature="true" ShowOperationTemplateParameters="false" ShowOperationType="1" ShowOperationsCodeDetails="0" ShowOperationsParameters="0" ShowOperationsReturnType="0" ShowOwnerOption="3" ShowParameterNameInOperationSignature="true" ShowParametersCodeDetails="0" ShowStereotypeIconName="0" ShowTypeOption="0" SuppressImplied1MultiplicityForAttribute="0" VisibilityStyle="1" Width="185" WpMbs="false" X="231" Y="0" ZOrder="26">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="FreeMove" Visible="true" Width="185" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+					<CompartmentFont Value="none"/>
+				</Class>
+			</Shapes>
+			<Connectors>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="EaaD4tqD.AAAAQiw" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="217" Id="20uL4tqD.AAAAQnl" MetaModelElement="00uL4tqD.AAAAQnk" Model="00uL4tqD.AAAAQnk" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="NUuL4tqD.AAAAQnf" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="138" X="193" Y="53" ZOrder="28">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="271" Y="181"/>
+					<Points>
+						<Point X="281.0" Y="103.0"/>
+						<Point X="281.0" Y="220.0"/>
+						<Point X="243.0" Y="220.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="EaaD4tqD.AAAAQiw" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="159" Id="UVQ74tqD.AAAAQrW" MetaModelElement="UVQ74tqD.AAAAQrV" Model="UVQ74tqD.AAAAQrV" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="2lQ74tqD.AAAAQrQ" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="343" Y="53" ZOrder="30">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="383" Y="130"/>
+					<Points>
+						<Point X="393.0" Y="103.0"/>
+						<Point X="393.0" Y="162.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="168" Id="9tef4tqD.AAAAQwO" MetaModelElement="9tef4tqD.AAAAQwN" Model="9tef4tqD.AAAAQwN" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To=".tef4tqD.AAAAQwI" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="904" Y="342" ZOrder="32">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="-10" Y="346"/>
+					<Points>
+						<Point X="954.0" Y="392.0"/>
+						<Point X="954.0" Y="460.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="160" Id="O1GkEtqD.AAAAQ9d" MetaModelElement="61GkEtqD.AAAAQ9c" Model="61GkEtqD.AAAAQ9c" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="g1GkEtqD.AAAAQ9X" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="225" X="1006" Y="294" ZOrder="34">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="42" Y="0"/>
+					<Points>
+						<Point X="1056.0" Y="344.0"/>
+						<Point X="1181.0" Y="344.0"/>
+						<Point X="1181.0" Y="404.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="144" Id="w7.0EtqD.AAAARAL" MetaModelElement="w7.0EtqD.AAAARAK" Model="w7.0EtqD.AAAARAK" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="xb.0EtqD.AAAARAF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="904" Y="14" ZOrder="36">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="-10" Y="0"/>
+					<Points>
+						<Point X="954.0" Y="108.0"/>
+						<Point X="954.0" Y="64.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="144" Id="t_Z0EtqD.AAAARAh" MetaModelElement="9fZ0EtqD.AAAARAg" Model="9fZ0EtqD.AAAARAg" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="CfZ0EtqD.AAAARAb" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="819" Y="14" ZOrder="38">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="-10" Y="0"/>
+					<Points>
+						<Point X="869.0" Y="108.0"/>
+						<Point X="869.0" Y="64.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="rX90EtqD.AAAARBF" MetaModelElement="pX90EtqD.AAAARBE" Model="pX90EtqD.AAAARBE" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="6n90EtqD.AAAARA_" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="244" X="1006" Y="217" ZOrder="40">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="1119" Y="267"/>
+					<Points>
+						<Point X="1056.0" Y="267.0"/>
+						<Point X="1200.0" Y="267.0"/>
+					</Points>
+				</Generalization>
+				<Generalization Background="rgb(255, 255, 255)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="2UVv4tqD.AAAAQuk" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="212" Id="5dHMEtqD.AAAARDL" MetaModelElement="5dHMEtqD.AAAARDK" Model="5dHMEtqD.AAAARDK" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="EdHMEtqD.AAAARDF" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="226" X="1006" Y="67" ZOrder="42">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="1164" Y="230"/>
+					<Points>
+						<Point X="1056.0" Y="229.0"/>
+						<Point X="1181.0" Y="229.0"/>
+						<Point X="1182.0" Y="117.0"/>
+					</Points>
+				</Generalization>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="NUuL4tqD.AAAAQnf" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="true" HasMultiplicityBShape="true" HasRoleAShape="false" HasRoleBShape="false" Height="133" Id="vuqCEtqD.AAAARGN" MetaModelElement="uuqCEtqD.AAAARGG" Model="uuqCEtqD.AAAARGG" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="2UVv4tqD.AAAAQuk" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="761" X="131" Y="261" ZOrder="44">
+					<MultiplicityBRectangle Height="15" Width="37" X="799" Y="325"/>
+					<MultiplicityARectangle Height="15" Width="27" X="180" Y="316"/>
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="485" Y="344"/>
+					<RoleA>
+						<MultiplicityCaption Height="15" Width="27" X="180" Y="316"/>
+					</RoleA>
+					<RoleB>
+						<MultiplicityCaption Height="15" Width="37" X="799" Y="325"/>
+					</RoleB>
+					<Points>
+						<Point X="181.0" Y="311.0"/>
+						<Point X="181.0" Y="344.0"/>
+						<Point X="842.0" Y="344.0"/>
+					</Points>
+				</Association>
+				<Usage Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="NUuL4tqD.AAAAQnf" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="m61yEtqD.AAAARMP" MetaModelElement="y61yEtqD.AAAARMO" Model="y61yEtqD.AAAARMO" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="2lQ74tqD.AAAAQrQ" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="209" X="193" Y="196" ZOrder="46">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="77" X="255" Y="226"/>
+					<Points>
+						<Point X="243.0" Y="246.0"/>
+						<Point X="352.0" Y="246.0"/>
+					</Points>
+				</Usage>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="5FQ4EtqD.AAAAQ5b" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="true" HasRoleAShape="false" HasRoleBShape="false" Height="134" Id="MfTaEtqD.AAAARRY" MetaModelElement="vvTaEtqD.AAAARRT" Model="vvTaEtqD.AAAARRT" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To=".tef4tqD.AAAAQwI" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="290" X="648" Y="376" ZOrder="48">
+					<MultiplicityBRectangle Height="15" Width="27" X="859" Y="442"/>
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="800" Y="426"/>
+					<RoleB>
+						<MultiplicityCaption Height="15" Width="27" X="859" Y="442"/>
+					</RoleB>
+					<Points>
+						<Point X="698.0" Y="426.0"/>
+						<Point X="888.0" Y="426.0"/>
+						<Point X="888.0" Y="460.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="0FwUEtqD.AAAAQ.L" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="true" HasRoleAShape="false" HasRoleBShape="false" Height="293" Id="skfaEtqD.AAAARSG" MetaModelElement="vEfaEtqD.AAAARSB" Model="vEfaEtqD.AAAARSB" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="g1GkEtqD.AAAAQ9X" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="663" X="648" Y="425" ZOrder="50">
+					<MultiplicityBRectangle Height="15" Width="27" X="1230" Y="490"/>
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="1022" Y="667"/>
+					<RoleB>
+						<MultiplicityCaption Height="15" Width="27" X="1230" Y="490"/>
+					</RoleB>
+					<Points>
+						<Point X="698.0" Y="579.0"/>
+						<Point X="757.0" Y="579.0"/>
+						<Point X="757.0" Y="668.0"/>
+						<Point X="1261.0" Y="668.0"/>
+						<Point X="1261.0" Y="475.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="ClassDiagram" Foreground="rgb(0, 0, 0)" From="zPcMEtqD.AAAARCb" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="true" HasRoleAShape="false" HasRoleBShape="false" Height="436" Id="HGM6EtqD.AAAARTJ" MetaModelElement="lGM6EtqD.AAAARTE" Model="lGM6EtqD.AAAARTE" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="6n90EtqD.AAAARA_" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="1252" X="199" Y="304" ZOrder="52">
+					<MultiplicityBRectangle Height="15" Width="27" X="1367" Y="357"/>
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="949" Y="689"/>
+					<RoleB>
+						<MultiplicityCaption Height="15" Width="27" X="1367" Y="357"/>
+					</RoleB>
+					<Points>
+						<Point X="249.0" Y="623.0"/>
+						<Point X="249.0" Y="690.0"/>
+						<Point X="1401.0" Y="690.0"/>
+						<Point X="1401.0" Y="354.0"/>
+					</Points>
+				</Association>
+			</Connectors>
+		</ClassDiagram>
+	</Diagrams>
+</Project>
