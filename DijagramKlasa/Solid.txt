@@ -1,0 +1,38 @@
+1. Princip pojedinaène odgovornosti
+
+Princip glasi : Klasa bi trebala imati samo jedan razlog za promjenu
+
+Princip je zadovoljen za pojedinaène klase iz razloga što nisu previse optereæene.
+Postoje klase rezervacija, koje vode brigu o raèunanju cijena, provjeri dostupnosti i slièno.
+Svaka klasa ima samo one atribute i metode koji su joj neophodne, kao i getere i setere.
+
+2. Otvoreno zatvoreni princip
+
+Princip glasi : Entiteti softvera trebali bi biti otvoreni za nadogradnju, ali zatvoreni za modifikacije.
+
+Ovaj princip je zadovoljen za sve klase u našem projektu jer možemo vršiti nadogradnju u bilo kojoj od postojeæih klasa.
+Promjene u implementaciji klasa neæe izazvati promjene u drugim klasama. Takoðer, naše klase nisu usko povezane sa 
+datotekama, pa se ne treba brinuti o narušavanju ovog principa uslijed promjena.
+
+3. Liskov princip zamjene
+
+Princip glasi : Podtipovi moraju biti zamjenjivi njihovim osnovnim tipovima
+
+Klase Administrator i Supervizor koje su izvedene iz klase Korisnik, te klase Aktivnost, Shopping, JeloIPice, Kultura,
+NocniZivot i Smjestaj koje su izvedene iz klase Kategorija su zamjenjive sa svojim osnovnim klasama, pa ovaj princip nije narušen.
+
+4. Princip inverzije ovisnoti
+
+Princip glasi : a) Moduli visokog nivoa ne bi trebali ovisiti od modula niskog nivoa. Oba bi trebala da ovise od apstrakcija
+		b) Moduli ne bi trebali ovisiti od detalja. Detalji bi trebali biti ovisni od apstrakcija
+
+Ovaj princip je djelimièno ispoštovan.
+Klasa Korisnik jeste apstraktna klasa, te samim tim je manje osjetljiva na promjene. Meðutim, sve klase izvedene iz klase Kategorija
+ovise od njene konkretne implementacije.
+
+5. Princip izoliranja interfejsa
+
+Princip glasi : Klijenti ne treba da ovise o metodama koje nece upotrebljavati
+
+Naš projekat nema "debelih" klasa sa metodama koje se neæe koristiti, odnosno interfejsi klasa sadrže samo ono što im je potrebno.
+Veæina metoda su geteri i seteri, pa možemo reæi da je princip ispoštovan.
