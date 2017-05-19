@@ -26,10 +26,5 @@ namespace SarajevoGO_
         {
             this.InitializeComponent();
         }
-
-        private void textBlock1_SelectionChanged(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }

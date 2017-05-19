@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="dd29121c-83c8-4e99-a238-a16bb1a94dc9"
+    Name="552189ce-5960-40fc-b49d-bd28e0d3a155"
     Publisher="CN=Korisnik"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="dd29121c-83c8-4e99-a238-a16bb1a94dc9" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="552189ce-5960-40fc-b49d-bd28e0d3a155" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>SarajevoGO!</DisplayName>

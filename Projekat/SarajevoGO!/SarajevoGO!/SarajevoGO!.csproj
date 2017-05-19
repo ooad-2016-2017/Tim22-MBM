@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{AD4C02FC-EBFC-4B29-85EE-ACCAA6A0EF71}</ProjectGuid>
+    <ProjectGuid>{A30D7DA4-33D4-4A76-B3E4-516C2A4DBEC3}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SarajevoGO_</RootNamespace>
@@ -92,18 +92,127 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminPregledKategorija.xaml.cs" />
+    <Compile Include="ActivityZaAdmina.xaml.cs">
+      <DependentUpon>ActivityZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityZaGosta.xaml.cs">
+      <DependentUpon>ActivityZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPregledKategorija.xaml.cs">
+      <DependentUpon>AdminPregledKategorija.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdminTab.xaml.cs">
+      <DependentUpon>AdminTab.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LogInForma.xaml.cs" />
+    <Compile Include="CreatePlace.xaml.cs">
+      <DependentUpon>CreatePlace.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CreatePlaceMapa.xaml.cs">
+      <DependentUpon>CreatePlaceMapa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Currencies.xaml.cs">
+      <DependentUpon>Currencies.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KulturaZaAdmina.xaml.cs">
+      <DependentUpon>KulturaZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KulturaZaGosta.xaml.cs">
+      <DependentUpon>KulturaZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaActivity.xaml.cs">
+      <DependentUpon>ListaActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaKultura.xaml.cs">
+      <DependentUpon>ListaKultura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaNightlife.xaml.cs">
+      <DependentUpon>ListaNightlife.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaRestoran.xaml.cs">
+      <DependentUpon>ListaRestoran.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaShopping.xaml.cs">
+      <DependentUpon>ListaShopping.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListaSmjestaj.xaml.cs">
+      <DependentUpon>ListaSmjestaj.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MapaAdresaInfo.xaml.cs">
+      <DependentUpon>MapaAdresaInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MeniZaGosta.xaml.cs">
+      <DependentUpon>MeniZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NightlifeZaGosta.xaml.cs">
+      <DependentUpon>NightlifeZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PrihvatanjeRezervacije.xaml.cs">
+      <DependentUpon>PrihvatanjeRezervacije.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RestoranZaAdmina.xaml.cs">
+      <DependentUpon>RestoranZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RestoranZaGosta.xaml.cs">
+      <DependentUpon>RestoranZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DodavanjeSupervizora.xaml.cs">
+      <DependentUpon>DodavanjeSupervizora.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GostPocetna.xaml.cs">
+      <DependentUpon>GostPocetna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForma.xaml.cs">
+      <DependentUpon>LoginForma.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MeniZaAdmina.xaml.cs">
+      <DependentUpon>MeniZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NightlifeZaAdmina.xaml.cs">
+      <DependentUpon>NightlifeZaAdmina.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RezervacijaKafica.xaml.cs" />
-    <Compile Include="RezervacijaSmjestaja.xaml.cs" />
-    <Compile Include="Tips.xaml.cs" />
+    <Compile Include="RezervacijaKafica.xaml.cs">
+      <DependentUpon>RezervacijaKafica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RezervacijaKarata.xaml.cs">
+      <DependentUpon>RezervacijaKarata.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RezervacijaPotvrda.xaml.cs">
+      <DependentUpon>RezervacijaPotvrda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RezervacijaSmjestaja.xaml.cs">
+      <DependentUpon>RezervacijaSmjestaja.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search.xaml.cs">
+      <DependentUpon>Search.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingZaAdmina.xaml.cs">
+      <DependentUpon>ShoppingZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ShoppingZaGosta.xaml.cs">
+      <DependentUpon>ShoppingZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SmjestajZaAdmina.xaml.cs">
+      <DependentUpon>SmjestajZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SmjestajZaGosta.xaml.cs">
+      <DependentUpon>SmjestajZaGosta.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SupervisorTab.xaml.cs">
+      <DependentUpon>SupervisorTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TipsZaAdmina.xaml.cs">
+      <DependentUpon>TipsZaAdmina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TipsZaGosta.xaml.cs">
+      <DependentUpon>TipsZaGosta.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -112,56 +221,309 @@
     <None Include="SarajevoGO!_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\back.png" />
-    <Content Include="Assets\backbutton.png" />
-    <Content Include="Assets\bascarsija.jpg" />
-    <Content Include="Assets\Bascarsija.png" />
-    <Content Include="Assets\bijelo.png" />
-    <Content Include="Assets\create.png" />
-    <Content Include="Assets\createplacebutton.png" />
-    <Content Include="Assets\home.png" />
-    <Content Include="Assets\homebutton.png" />
-    <Content Include="Assets\login.png" />
-    <Content Include="Assets\logo.png" />
-    <Content Include="Assets\rezervacije.png" />
-    <Content Include="Assets\searchbutton.png" />
+    <Content Include="Assets\accom.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\activity.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\admin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\adminShop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\adresa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\backbutton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\bascarsija.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\bed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\bijelo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\calendar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\check.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\create.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\createplace.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\createplacebutton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\culture.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\dolar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\dragthepoint.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\drink.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\food.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\fooddrink.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\homebutton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\house.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\info.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\internet.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\login.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\mapa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\mapaPoint.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\menu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\night.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\nightAdmin.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\phoneglass.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\rezervacije.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\searchbutton.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\select.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\shop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Shopping.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\sport.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\ssearch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\supervisor.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Properties\Default.rd.xml" />
-    <Content Include="Assets\LockScreenLogo.scale-200.png" />
-    <Content Include="Assets\SplashScreen.scale-200.png" />
-    <Content Include="Assets\Square150x150Logo.scale-200.png" />
-    <Content Include="Assets\Square44x44Logo.scale-200.png" />
-    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
-    <Content Include="Assets\StoreLogo.png" />
-    <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\SplashScreen.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square150x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\StoreLogo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Wide310x150Logo.scale-200.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AdminPregledKategorija.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="ActivityZaAdmina.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LogInForma.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="ActivityZaGosta.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminPregledKategorija.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AdminTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreatePlace.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CreatePlaceMapa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Currencies.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KulturaZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KulturaZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaActivity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaKultura.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaNightlife.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaRestoran.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaShopping.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListaSmjestaj.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MapaAdresaInfo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MeniZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NightlifeZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PrihvatanjeRezervacije.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RestoranZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RestoranZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DodavanjeSupervizora.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GostPocetna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoginForma.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="RezervacijaKafica.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="MeniZaAdmina.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="NightlifeZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RezervacijaKafica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RezervacijaKarata.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RezervacijaPotvrda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="RezervacijaSmjestaja.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Tips.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Search.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShoppingZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ShoppingZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SmjestajZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SmjestajZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SupervisorTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TipsZaAdmina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TipsZaGosta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

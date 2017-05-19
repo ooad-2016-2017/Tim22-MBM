@@ -20,14 +20,14 @@ namespace SarajevoGO_
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class LogInForma : Page
+    public sealed partial class LoginForma : Page
     {
-        public LogInForma()
+        public LoginForma()
         {
             this.InitializeComponent();
         }
 
-        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
 
         }

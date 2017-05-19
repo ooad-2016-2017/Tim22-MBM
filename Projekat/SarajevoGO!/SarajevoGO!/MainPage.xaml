@@ -7,9 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Height="640" VerticalAlignment="Bottom">
+    <Grid>
         <Grid.Background>
-            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/bascarsija.jpg"/>
+        <ImageBrush Stretch="UniformToFill" ImageSource="Assets/bascarsija.jpg"/>
         </Grid.Background>
         <Image x:Name="bijelo1" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="95" Source="Assets/bijelo.png"/>
         <Image x:Name="bijelo2" HorizontalAlignment="Left" Height="44" VerticalAlignment="Top" Width="94" Source="Assets/bijelo.png" Margin="266,0,0,0"/>
@@ -19,6 +19,7 @@
         <Button x:Name="eng_button" Content="ENG" HorizontalAlignment="Left" Margin="249,593,0,0" VerticalAlignment="Top" Opacity="0.7" Foreground="White" Width="48" Height="47" Background="{ThemeResource ButtonDisabledBackgroundThemeBrush}" FontWeight="Bold" FontFamily="Arial Black" FontSize="12"/>
         <Button x:Name="ger_button" Content="GER" HorizontalAlignment="Left" Margin="302,593,0,0" VerticalAlignment="Top" Opacity="0.7" Foreground="White" Width="48" Height="47" Background="{ThemeResource ButtonDisabledBackgroundThemeBrush}" FontWeight="Bold" FontFamily="Arial Black" FontSize="12"/>
         <Button x:Name="bos_button" Content="BOS" HorizontalAlignment="Left" Margin="196,593,0,0" VerticalAlignment="Top" Opacity="0.7" Foreground="White" Width="48" Height="47" Background="{ThemeResource ButtonDisabledBackgroundThemeBrush}" FontWeight="Bold" FontFamily="Arial Black" FontSize="12"/>
+
 
     </Grid>
 </Page>
