@@ -104,6 +104,7 @@
     <Compile Include="AdminTab.xaml.cs">
       <DependentUpon>AdminTab.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Aktivnost.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -116,6 +117,9 @@
     <Compile Include="Currencies.xaml.cs">
       <DependentUpon>Currencies.xaml</DependentUpon>
     </Compile>
+    <Compile Include="JeloIPice.cs" />
+    <Compile Include="Kategorija.cs" />
+    <Compile Include="Kultura.cs" />
     <Compile Include="KulturaZaAdmina.xaml.cs">
       <DependentUpon>KulturaZaAdmina.xaml</DependentUpon>
     </Compile>
@@ -149,6 +153,7 @@
     <Compile Include="NightlifeZaGosta.xaml.cs">
       <DependentUpon>NightlifeZaGosta.xaml</DependentUpon>
     </Compile>
+    <Compile Include="NocniZivot.cs" />
     <Compile Include="PrihvatanjeRezervacije.xaml.cs">
       <DependentUpon>PrihvatanjeRezervacije.xaml</DependentUpon>
     </Compile>
@@ -192,12 +197,14 @@
     <Compile Include="Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Shopping.cs" />
     <Compile Include="ShoppingZaAdmina.xaml.cs">
       <DependentUpon>ShoppingZaAdmina.xaml</DependentUpon>
     </Compile>
     <Compile Include="ShoppingZaGosta.xaml.cs">
       <DependentUpon>ShoppingZaGosta.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Smjestaj.cs" />
     <Compile Include="SmjestajZaAdmina.xaml.cs">
       <DependentUpon>SmjestajZaAdmina.xaml</DependentUpon>
     </Compile>
