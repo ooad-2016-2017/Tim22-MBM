@@ -9,109 +9,31 @@ namespace SarajevoGO_.Model
 {
     public abstract class Kategorija
     {
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
+        public String tip { get; set; }
+        public string nazivObjekt { get; set; }
+        public string adresa { get; set; }
+        public string web { get; set; }
+        public string info { get; set; }
+        public Int32 telefon { get; set; }
+        public Image slika { get; set; }
 
-        public Kategorija(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl)
+        public Kategorija(String vrsta, String naziv, String adr, String www, String detalji, Int32 tel, Image sl)
         {
-            tip = t;
-            nazivObjekta = naziv;
+            tip = vrsta;
+            nazivObjekt = naziv;
             adresa = adr;
             web = www;
-            info = inf;
-            telefon = tel;
+            info = detalji;
             slika = sl;
         }
-        public string Tip
+        public Kategorija(Kategorija k)
         {
-            get
-            {
-                return tip;
-            }
-
-            set
-            {
-                tip = value;
-            }
-        }
-
-        public string NazivObjekta
-        {
-            get
-            {
-                return nazivObjekta;
-            }
-
-            set
-            {
-                nazivObjekta = value;
-            }
-        }
-
-        public string Adresa
-        {
-            get
-            {
-                return adresa;
-            }
-
-            set
-            {
-                adresa = value;
-            }
-        }
-
-        public string Web
-        {
-            get
-            {
-                return web;
-            }
-
-            set
-            {
-                web = value;
-            }
-        }
-
-        public string Info
-        {
-            get
-            {
-                return info;
-            }
-
-            set
-            {
-                info = value;
-            }
-        }
-
-        public int Telefon
-        {
-            get
-            {
-                return telefon;
-            }
-
-            set
-            {
-                telefon = value;
-            }
-        }
-
-        public Image Slika
-        {
-            get
-            {
-                return slika;
-            }
-
-            set
-            {
-                slika = value;
-            }
+            tip = k.tip;
+            nazivObjekt = k.nazivObjekt;
+            adresa = k.adresa;
+            web = k.web;
+            info = k.info;
+            slika = k.slika;
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Windows.UI.Xaml.Media.Imaging;
+using Windows.UI.Xaml.Controls;
 
 namespace SarajevoGO_.Model
 {
@@ -20,7 +20,7 @@ namespace SarajevoGO_.Model
             tipSupervizora = tip;
         }
 
-        public void dodajObjekat(Kategorija k, string tip, string naziv, Int32 broj, string web, string detalji, BitmapImage slika, BitmapImage meni)
+        public void dodajObjekat(Kategorija k, string tip, string naziv, Int32 broj, string web, string detalji, Image slika, Image meni)
         {
             if (Sistem.validirajObjekat(naziv).Equals(false))
                 throw new Exception("Postoji objekat s istim nazivom");

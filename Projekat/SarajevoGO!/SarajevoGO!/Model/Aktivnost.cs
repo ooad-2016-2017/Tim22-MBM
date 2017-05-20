@@ -9,10 +9,6 @@ namespace SarajevoGO_.Model
 {
     public class Aktivnost : Kategorija
     {
-
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
-        public Aktivnost(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl) : base(t, naziv, adr, www, inf, tel, sl) { }
+        public Aktivnost(String tip, String naziv, String adr, String www, String inf, Int32 tel, Image sl) : base(tip, naziv, adr, www, inf, tel, sl) { }
     }
 }

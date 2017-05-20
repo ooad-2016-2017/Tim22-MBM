@@ -8,30 +8,16 @@ using Windows.UI.Xaml.Controls;
 
 namespace SarajevoGO_.Model
 {
-   public class NocniZivot : Kategorija
+    public class NocniZivot : Kategorija
     {
-
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
-        Int32 brojStolova;
-
-        public int BrojStolova
+        public Int32[] brojStolova { get; set; }
+        public NocniZivot(String tip, String naziv, String adr, String www, String detalji, Int32 tel, Image sl) : base(tip, naziv, adr, www, detalji, tel, sl)
         {
-            get
-            {
-                return brojStolova;
-            }
-
-            set
-            {
-                brojStolova = value;
-            }
+            brojStolova = Enumerable.Repeat(15, 31).ToArray();
         }
-
-        public NocniZivot(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl) : base(t, naziv, adr, www, inf, tel, sl)
+        public void rezervisiSto(Int32 broj, Int32 dan)
         {
-            BrojStolova = 15;
+            brojStolova[dan - 1] -= broj;
         }
     }
 }

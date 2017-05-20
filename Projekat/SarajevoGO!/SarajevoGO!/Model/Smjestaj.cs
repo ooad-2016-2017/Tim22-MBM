@@ -8,114 +8,28 @@ using Windows.UI.Xaml.Controls;
 namespace SarajevoGO_.Model
 {
     public class Smjestaj : Kategorija
-
     {
+        public Int32[] brojDvokrevetnih { get; set; }
+        public Int32[] brojTrokrevetnih { get; set; }
+        public Int32[] brojCetverokrevetnih { get; set; }
+        public Int32 cijenaPoNoci { get; set; }
 
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
-        Boolean dorucak, rucak, vecera;
-        Int32 brojDvokrevetnih, brojTrokrevetnih, brojCetverokrevetnih;
-        Int32 cijenaPoNoci;
-
-        public bool Dorucak
+        public Smjestaj(String tip, String naziv, String adr, String www, String detalji, Int32 tel, Image sl, Int32 cijena = 20) : base(tip, naziv, adr, www, detalji, tel, sl)
         {
-            get
-            {
-                return dorucak;
-            }
-
-            set
-            {
-                dorucak = value;
-            }
-        }
-
-        public bool Rucak
-        {
-            get
-            {
-                return rucak;
-            }
-
-            set
-            {
-                rucak = value;
-            }
-        }
-
-        public bool Vecera
-        {
-            get
-            {
-                return vecera;
-            }
-
-            set
-            {
-                vecera = value;
-            }
-        }
-
-        public int BrojDvokrevetnih
-        {
-            get
-            {
-                return brojDvokrevetnih;
-            }
-
-            set
-            {
-                brojDvokrevetnih = value;
-            }
-        }
-
-        public int BrojTrokrevetnih
-        {
-            get
-            {
-                return brojTrokrevetnih;
-            }
-
-            set
-            {
-                brojTrokrevetnih = value;
-            }
-        }
-
-        public int BrojCetverokrevetnih
-        {
-            get
-            {
-                return brojCetverokrevetnih;
-            }
-
-            set
-            {
-                brojCetverokrevetnih = value;
-            }
-        }
-
-        public int CijenaPoNoci
-        {
-            get
-            {
-                return cijenaPoNoci;
-            }
-
-            set
-            {
-                cijenaPoNoci = value;
-            }
-        }
-
-        public Smjestaj(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl, Boolean dor, Boolean ruc, Boolean vec, Int32 cijena) : base(t, naziv, adr, www, inf, tel, sl)
-        {
-            dorucak = dor;
-            rucak = ruc;
-            vecera = vec;
             cijenaPoNoci = cijena;
-            brojDvokrevetnih = brojTrokrevetnih = brojCetverokrevetnih = 5;
+            brojDvokrevetnih = brojTrokrevetnih = brojCetverokrevetnih = Enumerable.Repeat(5, 31).ToArray();
+        }
+        public void rezervisiSmjestaj(string vrstaSobe, Int32 danDolaska, Int32 danOdlaska)
+        {
+            if (vrstaSobe.Equals("Double room"))
+                for (int i = danDolaska - 1; i < danOdlaska - 1; i++) // smanjuje broj soba izmedju dva datuma za 1
+                    brojDvokrevetnih[i]--;
+            else if (vrstaSobe.Equals("Triple room"))
+                for (int i = danDolaska - 1; i < danOdlaska - 1; i++)
+                    brojTrokrevetnih[i]--;
+            else
+                for (int i = danDolaska - 1; i < danOdlaska - 1; i++)
+                    brojCetverokrevetnih[i]--;
         }
     }
 }

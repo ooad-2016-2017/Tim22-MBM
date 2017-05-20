@@ -9,56 +9,20 @@ namespace SarajevoGO_.Model
 {
     public class Kultura : Kategorija
     {
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
-        Double cijenaOdrasli, cijenaDjeca;
-        Int32 brojMjesta;
+        public Double cijenaOdrasli { get; set; }
+        public Double cijenaDjeca { get; set; }
+        public Int32[] brojMjesta { get; set; }
 
-        public double CijenaOdrasli
+        public Kultura(String tip, String naziv, String adr, String www, String inf, Int32 tel, Image sl, Double cijenaO = 10, Double cijenaD = 5) : base(tip, naziv, adr, www, inf, tel, sl)
         {
-            get
-            {
-                return cijenaOdrasli;
-            }
-
-            set
-            {
-                cijenaOdrasli = value;
-            }
+            cijenaOdrasli = cijenaO;
+            cijenaDjeca = cijenaD;
+            brojMjesta = Enumerable.Repeat(50, 31).ToArray();
         }
 
-        public double CijenaDjeca
+        public void rezervisiKartu(Int32 broj, Int32 dan)
         {
-            get
-            {
-                return cijenaDjeca;
-            }
-
-            set
-            {
-                cijenaDjeca = value;
-            }
-        }
-
-        public int BrojMjesta
-        {
-            get
-            {
-                return brojMjesta;
-            }
-
-            set
-            {
-                brojMjesta = value;
-            }
-        }
-
-        public Kultura(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl, Double cijenaO, Double cijenaD) : base(t, naziv, adr, www, inf, tel, sl)
-        {
-            CijenaOdrasli = cijenaO;
-            CijenaDjeca = cijenaD;
-            BrojMjesta = 50;
+            brojMjesta[dan - 1] -= broj;
         }
     }
 }

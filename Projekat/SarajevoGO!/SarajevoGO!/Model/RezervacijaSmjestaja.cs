@@ -30,7 +30,7 @@ namespace SarajevoGO_.Model
         public double izracunajKonacnuCijenu()
         {
             double brojDana = (odlazak - dolazak).TotalDays;
-            double cijena = smjestaj.CijenaPoNoci;
+            double cijena = smjestaj.cijenaPoNoci;
             if (vrstaSobe.Equals("Triple room"))
                 cijena += 5;
             else cijena += 10;

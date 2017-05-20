@@ -9,10 +9,7 @@ namespace SarajevoGO_.Model
 {
     public class Shopping : Kategorija
     {
-        String tip, nazivObjekta, adresa, web, info;
-        Int32 telefon;
-        Image slika;
-        public Shopping(String t, String naziv, String adr, String www, String inf, Int32 tel, Image sl) : base(t, naziv, adr, www, inf, tel, sl) { }
+        public Shopping(String tip, String naziv, String adr, String www, String detalji, Int32 tel, Image sl) : base(tip, naziv, adr, www, detalji, tel, sl) { }
     }
 
 }
