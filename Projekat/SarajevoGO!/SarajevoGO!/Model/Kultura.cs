@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace App1
+namespace SarajevoGO_.Model
 {
-    class Kultura : Kategorija
+    public class Kultura : Kategorija
     {
         String tip, nazivObjekta, adresa, web, info;
         Int32 telefon;

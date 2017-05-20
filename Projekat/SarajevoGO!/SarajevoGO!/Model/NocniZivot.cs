@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace App1
+namespace SarajevoGO_.Model
 {
-    class NocniZivot : Kategorija
+   public class NocniZivot : Kategorija
     {
 
         String tip, nazivObjekta, adresa, web, info;

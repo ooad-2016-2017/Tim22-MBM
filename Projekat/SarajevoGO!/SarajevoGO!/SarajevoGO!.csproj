@@ -92,132 +92,140 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivityZaAdmina.xaml.cs">
+    <Compile Include="Model\Gost.cs" />
+    <Compile Include="Model\Korisnik.cs" />
+    <Compile Include="Model\RezervacijaKafica.cs" />
+    <Compile Include="Model\RezervacijaKarte.cs" />
+    <Compile Include="Model\RezervacijaSmjestaja.cs" />
+    <Compile Include="Model\Sistem.cs" />
+    <Compile Include="Model\Supervizor.cs" />
+    <Compile Include="View\ActivityZaAdmina.xaml.cs">
       <DependentUpon>ActivityZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ActivityZaGosta.xaml.cs">
+    <Compile Include="View\ActivityZaGosta.xaml.cs">
       <DependentUpon>ActivityZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AdminPregledKategorija.xaml.cs">
+    <Compile Include="Model\Administrator.cs" />
+    <Compile Include="View\AdminPregledKategorija.xaml.cs">
       <DependentUpon>AdminPregledKategorija.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AdminTab.xaml.cs">
+    <Compile Include="View\AdminTab.xaml.cs">
       <DependentUpon>AdminTab.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Aktivnost.cs" />
+    <Compile Include="Model\Aktivnost.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreatePlace.xaml.cs">
+    <Compile Include="View\CreatePlace.xaml.cs">
       <DependentUpon>CreatePlace.xaml</DependentUpon>
     </Compile>
-    <Compile Include="CreatePlaceMapa.xaml.cs">
+    <Compile Include="View\CreatePlaceMapa.xaml.cs">
       <DependentUpon>CreatePlaceMapa.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Currencies.xaml.cs">
+    <Compile Include="View\Currencies.xaml.cs">
       <DependentUpon>Currencies.xaml</DependentUpon>
     </Compile>
-    <Compile Include="JeloIPice.cs" />
-    <Compile Include="Kategorija.cs" />
-    <Compile Include="Kultura.cs" />
-    <Compile Include="KulturaZaAdmina.xaml.cs">
+    <Compile Include="Model\JeloIPice.cs" />
+    <Compile Include="Model\Kategorija.cs" />
+    <Compile Include="Model\Kultura.cs" />
+    <Compile Include="View\KulturaZaAdmina.xaml.cs">
       <DependentUpon>KulturaZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="KulturaZaGosta.xaml.cs">
+    <Compile Include="View\KulturaZaGosta.xaml.cs">
       <DependentUpon>KulturaZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaActivity.xaml.cs">
+    <Compile Include="View\ListaActivity.xaml.cs">
       <DependentUpon>ListaActivity.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaKultura.xaml.cs">
+    <Compile Include="View\ListaKultura.xaml.cs">
       <DependentUpon>ListaKultura.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaNightlife.xaml.cs">
+    <Compile Include="View\ListaNightlife.xaml.cs">
       <DependentUpon>ListaNightlife.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaRestoran.xaml.cs">
+    <Compile Include="View\ListaRestoran.xaml.cs">
       <DependentUpon>ListaRestoran.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaShopping.xaml.cs">
+    <Compile Include="View\ListaShopping.xaml.cs">
       <DependentUpon>ListaShopping.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ListaSmjestaj.xaml.cs">
+    <Compile Include="View\ListaSmjestaj.xaml.cs">
       <DependentUpon>ListaSmjestaj.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MapaAdresaInfo.xaml.cs">
+    <Compile Include="View\MapaAdresaInfo.xaml.cs">
       <DependentUpon>MapaAdresaInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MeniZaGosta.xaml.cs">
+    <Compile Include="View\MeniZaGosta.xaml.cs">
       <DependentUpon>MeniZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NightlifeZaGosta.xaml.cs">
+    <Compile Include="View\NightlifeZaGosta.xaml.cs">
       <DependentUpon>NightlifeZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NocniZivot.cs" />
-    <Compile Include="PrihvatanjeRezervacije.xaml.cs">
+    <Compile Include="Model\NocniZivot.cs" />
+    <Compile Include="View\PrihvatanjeRezervacije.xaml.cs">
       <DependentUpon>PrihvatanjeRezervacije.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RestoranZaAdmina.xaml.cs">
+    <Compile Include="View\RestoranZaAdmina.xaml.cs">
       <DependentUpon>RestoranZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RestoranZaGosta.xaml.cs">
+    <Compile Include="View\RestoranZaGosta.xaml.cs">
       <DependentUpon>RestoranZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DodavanjeSupervizora.xaml.cs">
+    <Compile Include="View\DodavanjeSupervizora.xaml.cs">
       <DependentUpon>DodavanjeSupervizora.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GostPocetna.xaml.cs">
+    <Compile Include="View\GostPocetna.xaml.cs">
       <DependentUpon>GostPocetna.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LoginForma.xaml.cs">
+    <Compile Include="View\LoginForma.xaml.cs">
       <DependentUpon>LoginForma.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MeniZaAdmina.xaml.cs">
+    <Compile Include="View\MeniZaAdmina.xaml.cs">
       <DependentUpon>MeniZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="NightlifeZaAdmina.xaml.cs">
+    <Compile Include="View\NightlifeZaAdmina.xaml.cs">
       <DependentUpon>NightlifeZaAdmina.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RezervacijaKafica.xaml.cs">
+    <Compile Include="View\RezervacijaKafica.xaml.cs">
       <DependentUpon>RezervacijaKafica.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RezervacijaKarata.xaml.cs">
+    <Compile Include="View\RezervacijaKarata.xaml.cs">
       <DependentUpon>RezervacijaKarata.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RezervacijaPotvrda.xaml.cs">
+    <Compile Include="View\RezervacijaPotvrda.xaml.cs">
       <DependentUpon>RezervacijaPotvrda.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RezervacijaSmjestaja.xaml.cs">
+    <Compile Include="View\RezervacijaSmjestaja.xaml.cs">
       <DependentUpon>RezervacijaSmjestaja.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Search.xaml.cs">
+    <Compile Include="View\Search.xaml.cs">
       <DependentUpon>Search.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Shopping.cs" />
-    <Compile Include="ShoppingZaAdmina.xaml.cs">
+    <Compile Include="Model\Shopping.cs" />
+    <Compile Include="View\ShoppingZaAdmina.xaml.cs">
       <DependentUpon>ShoppingZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ShoppingZaGosta.xaml.cs">
+    <Compile Include="View\ShoppingZaGosta.xaml.cs">
       <DependentUpon>ShoppingZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Smjestaj.cs" />
-    <Compile Include="SmjestajZaAdmina.xaml.cs">
+    <Compile Include="Model\Smjestaj.cs" />
+    <Compile Include="View\SmjestajZaAdmina.xaml.cs">
       <DependentUpon>SmjestajZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SmjestajZaGosta.xaml.cs">
+    <Compile Include="View\SmjestajZaGosta.xaml.cs">
       <DependentUpon>SmjestajZaGosta.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SupervisorTab.xaml.cs">
+    <Compile Include="View\SupervisorTab.xaml.cs">
       <DependentUpon>SupervisorTab.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TipsZaAdmina.xaml.cs">
+    <Compile Include="View\TipsZaAdmina.xaml.cs">
       <DependentUpon>TipsZaAdmina.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TipsZaGosta.xaml.cs">
+    <Compile Include="View\TipsZaGosta.xaml.cs">
       <DependentUpon>TipsZaGosta.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -376,99 +384,99 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="ActivityZaAdmina.xaml">
+    <Page Include="View\ActivityZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ActivityZaGosta.xaml">
+    <Page Include="View\ActivityZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AdminPregledKategorija.xaml">
+    <Page Include="View\AdminPregledKategorija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AdminTab.xaml">
+    <Page Include="View\AdminTab.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CreatePlace.xaml">
+    <Page Include="View\CreatePlace.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="CreatePlaceMapa.xaml">
+    <Page Include="View\CreatePlaceMapa.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Currencies.xaml">
+    <Page Include="View\Currencies.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KulturaZaAdmina.xaml">
+    <Page Include="View\KulturaZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="KulturaZaGosta.xaml">
+    <Page Include="View\KulturaZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaActivity.xaml">
+    <Page Include="View\ListaActivity.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaKultura.xaml">
+    <Page Include="View\ListaKultura.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaNightlife.xaml">
+    <Page Include="View\ListaNightlife.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaRestoran.xaml">
+    <Page Include="View\ListaRestoran.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaShopping.xaml">
+    <Page Include="View\ListaShopping.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ListaSmjestaj.xaml">
+    <Page Include="View\ListaSmjestaj.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MapaAdresaInfo.xaml">
+    <Page Include="View\MapaAdresaInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MeniZaGosta.xaml">
+    <Page Include="View\MeniZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NightlifeZaGosta.xaml">
+    <Page Include="View\NightlifeZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PrihvatanjeRezervacije.xaml">
+    <Page Include="View\PrihvatanjeRezervacije.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RestoranZaAdmina.xaml">
+    <Page Include="View\RestoranZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RestoranZaGosta.xaml">
+    <Page Include="View\RestoranZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DodavanjeSupervizora.xaml">
+    <Page Include="View\DodavanjeSupervizora.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GostPocetna.xaml">
+    <Page Include="View\GostPocetna.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LoginForma.xaml">
+    <Page Include="View\LoginForma.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -476,59 +484,59 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MeniZaAdmina.xaml">
+    <Page Include="View\MeniZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="NightlifeZaAdmina.xaml">
+    <Page Include="View\NightlifeZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RezervacijaKafica.xaml">
+    <Page Include="View\RezervacijaKafica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RezervacijaKarata.xaml">
+    <Page Include="View\RezervacijaKarata.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RezervacijaPotvrda.xaml">
+    <Page Include="View\RezervacijaPotvrda.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="RezervacijaSmjestaja.xaml">
+    <Page Include="View\RezervacijaSmjestaja.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Search.xaml">
+    <Page Include="View\Search.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ShoppingZaAdmina.xaml">
+    <Page Include="View\ShoppingZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ShoppingZaGosta.xaml">
+    <Page Include="View\ShoppingZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SmjestajZaAdmina.xaml">
+    <Page Include="View\SmjestajZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SmjestajZaGosta.xaml">
+    <Page Include="View\SmjestajZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SupervisorTab.xaml">
+    <Page Include="View\SupervisorTab.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TipsZaAdmina.xaml">
+    <Page Include="View\TipsZaAdmina.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TipsZaGosta.xaml">
+    <Page Include="View\TipsZaGosta.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
