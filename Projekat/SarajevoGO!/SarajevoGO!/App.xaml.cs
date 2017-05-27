@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace SarajevoGO_
 {
@@ -31,7 +32,7 @@ namespace SarajevoGO_
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
-
+        public static MobileServiceClient MobileService = new MobileServiceClient("http://sarajevogo.azurewebsites.net");
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
         /// will be used such as when the application is launched to open a specific file.

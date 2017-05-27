@@ -24,8 +24,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Source" />
-      <RootProperty Name="Stretch" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
@@ -36,10 +36,11 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="VerticalContentAlignment" />
       <RootProperty Name="RenderTransformOrigin" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Command" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Opacity" />
@@ -95,6 +96,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="SarajevoGO_.ActivityZaGosta" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="HorizontalAlignment" />
@@ -120,8 +122,9 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="BorderBrush" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
-    <RootType FullName="SarajevoGO_.AdminTab1" />
+    <RootType FullName="SarajevoGO_.AdminTab" />
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -129,7 +132,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Items" />
-      <RootProperty Name="Background" />
       <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
@@ -138,17 +140,6 @@
       <RootMethod Name="GetName" />
       <RootMethod Name="SetName" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.RichTextBlock">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="Blocks" />
-      <RootEvent Name="SelectionChanged" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Maps.MapControl">
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Margin" />
@@ -156,17 +147,11 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Paragraph">
-      <RootProperty Name="Inlines" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Documents.Run">
-      <RootProperty Name="Text" />
-    </RootType>
     <RootType FullName="SarajevoGO_.CreatePlace" />
     <RootType FullName="SarajevoGO_.CreatePlaceMapa" />
     <RootType FullName="SarajevoGO_.Currencies" />
     <RootType FullName="SarajevoGO_.KulturaZaAdmina" />
-    <RootType FullName="SarajevoGO_.DodajKulturu" />
+    <RootType FullName="SarajevoGO_.KulturaZaGosta" />
     <RootType FullName="SarajevoGO_.ListaActivity" />
     <RootType FullName="SarajevoGO_.ListaKultura" />
     <RootType FullName="SarajevoGO_.ListaNightlife" />
@@ -178,13 +163,13 @@
     <RootType FullName="SarajevoGO_.NightlifeZaGosta" />
     <RootType FullName="SarajevoGO_.PrihvatanjeRezervacije" />
     <RootType FullName="SarajevoGO_.RestoranZaAdmina" />
-    <RootType FullName="SarajevoGO_.DodajRestoran" />
+    <RootType FullName="SarajevoGO_.RestoranZaGosta" />
     <RootType FullName="SarajevoGO_.DodavanjeSupervizora" />
     <RootType FullName="SarajevoGO_.Gost" />
     <RootType FullName="SarajevoGO_.LoginForma" />
     <RootType FullName="SarajevoGO_.MainPage" />
     <RootType FullName="SarajevoGO_.Meni" />
-    <RootType FullName="SarajevoGO_.Nightlife" />
+    <RootType FullName="SarajevoGO_.NightlifeZaAdmina" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -194,6 +179,9 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.Run">
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="SarajevoGO_.RezervacijaKafica" />
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
@@ -216,7 +204,7 @@
     <RootType FullName="SarajevoGO_.SmjestajZaAdmina" />
     <RootType FullName="SarajevoGO_.SmjestajZaGosta" />
     <RootType FullName="SarajevoGO_.SupervisorTab" />
-    <RootType FullName="SarajevoGO_.Tips" />
+    <RootType FullName="SarajevoGO_.TipsZaAdmina" />
     <RootType FullName="SarajevoGO_.TipsZaGosta" />
   </Roots.RootTypes>
 </Roots>

@@ -92,6 +92,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helper\INavigation.cs" />
+    <Compile Include="Helper\NavigationService.cs" />
+    <Compile Include="Helper\RelayCommand.cs" />
     <Compile Include="Model\Gost.cs" />
     <Compile Include="Model\Korisnik.cs" />
     <Compile Include="Model\RezervacijaKafica.cs" />
@@ -99,6 +102,11 @@
     <Compile Include="Model\RezervacijaSmjestaja.cs" />
     <Compile Include="Model\Sistem.cs" />
     <Compile Include="Model\Supervizor.cs" />
+    <Compile Include="ViewModel\AdminViewModel.cs" />
+    <Compile Include="ViewModel\GostViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\RezervacijaViewModel.cs" />
     <Compile Include="View\ActivityZaAdmina.xaml.cs">
       <DependentUpon>ActivityZaAdmina.xaml</DependentUpon>
     </Compile>
@@ -174,8 +182,8 @@
     <Compile Include="View\DodavanjeSupervizora.xaml.cs">
       <DependentUpon>DodavanjeSupervizora.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\GostPocetna.xaml.cs">
-      <DependentUpon>GostPocetna.xaml</DependentUpon>
+    <Compile Include="View\Gost.xaml.cs">
+      <DependentUpon>Gost.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginForma.xaml.cs">
       <DependentUpon>LoginForma.xaml</DependentUpon>
@@ -472,7 +480,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\GostPocetna.xaml">
+    <Page Include="View\Gost.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -541,6 +549,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

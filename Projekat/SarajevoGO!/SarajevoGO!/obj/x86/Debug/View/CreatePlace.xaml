@@ -27,14 +27,12 @@
             <Button Content="Culture&amp;Sightseeing"/>
             <Button Content="Shopping"/>
         </ComboBox>
-        <RichTextBlock x:ConnectionId='6' x:Name="Details" HorizontalAlignment="Left" Height="112" Margin="10,288,0,0" VerticalAlignment="Top" Width="340" RenderTransformOrigin="-0.217,0.587" Foreground="Black">
-            <Paragraph>
-                <Run Text="Details"/>
-            </Paragraph>
-        </RichTextBlock>
+        <TextBox x:ConnectionId='6' x:Name="textBox" Height="100" TextWrapping="Wrap" Text="Details" Margin="10,295,10,295"/>
         <Button x:ConnectionId='7' x:Name="button" Content="Create" HorizontalAlignment="Left" Margin="125,570,0,0" VerticalAlignment="Top" Width="130" Background="#FF4343C9" Foreground="#FFFDF4F4" Height="40"/>
 
-        <Maps:MapControl HorizontalAlignment="Left" Margin="10,405,0,0" VerticalAlignment="Top" Height="160" Width="340"/>
+        <Maps:MapControl HorizontalAlignment="Left" Margin="10,405,0,0" VerticalAlignment="Top" Height="160" Width="340">
+
+        </Maps:MapControl>
 
     </Grid>
 </Page>

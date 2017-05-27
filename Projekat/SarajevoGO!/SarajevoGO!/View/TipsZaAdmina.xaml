@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="SarajevoGO_.Tips"
+    x:Class="SarajevoGO_.TipsZaAdmina"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SarajevoGO_"
@@ -7,11 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
     <Grid Background="White">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="Assets/logo.png"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="ms-appx:///Assets/logo.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="150,65,0,0" TextWrapping="Wrap" Text="TIPS" VerticalAlignment="Top" Foreground="#FF2D6EE0" FontWeight="Bold" FontSize="18" RenderTransformOrigin="0.738,0.398"/>
         <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Height="33" Width="45">
             <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Assets/backbutton.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backbutton.png"/>
             </Button.Background>
         </Button>
         

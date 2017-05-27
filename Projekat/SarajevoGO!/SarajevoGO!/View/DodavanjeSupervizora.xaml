@@ -9,18 +9,19 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         
-        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="Assets/logo.png"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="ms-appx:///Assets/logo.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="100,65,0,0" TextWrapping="Wrap" Text="ADD SUPERVISOR" VerticalAlignment="Top" Foreground="#FF2D6EE0" FontWeight="Bold" FontSize="18" RenderTransformOrigin="0.738,0.398"/>
         <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Height="33" Width="45">
             <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Assets/backbutton.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backbutton.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="button" Content="Confirm" HorizontalAlignment="Left" Margin="120,570,0,0" VerticalAlignment="Top" Width="130" Background="#FF4343C9" Foreground="#FFFDF4F4" Height="40"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="73,260,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="210"/>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="20" Margin="73,320,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="210"/>
-        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="20" Margin="73,380,0,0" VerticalAlignment="Top" Width="210" Background="#FFC9C5C5" RenderTransformOrigin="0.5,0.5"/>
+        
         
         <Image x:Name="back_png" Margin="15,0,0,271" Source="res/back.png" Stretch="Fill" RenderTransformOrigin="0.111,-0.125" HorizontalAlignment="Left" Width="45" Height="40" VerticalAlignment="Bottom"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="73,380,0,0" VerticalAlignment="Top" Width="210"/>
     </Grid>
 </Page>

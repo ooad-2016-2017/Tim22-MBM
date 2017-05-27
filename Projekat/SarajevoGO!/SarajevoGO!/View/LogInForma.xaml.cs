@@ -1,13 +1,17 @@
-﻿using System;
+﻿using SarajevoGO_.Helper;
+using SarajevoGO_.ViewModel;
+using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Controls.Primitives;  
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
@@ -22,14 +26,45 @@ namespace SarajevoGO_
     /// </summary>
     public sealed partial class LoginForma : Page
     {
+        private LoginViewModel viewModel;
+        private INavigation MyNavigationService { get; set; }
         public LoginForma()
         {
             this.InitializeComponent();
+            viewModel = new LoginViewModel();
+            var currentView = SystemNavigationManager.GetForCurrentView();
+            currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+            currentView.BackRequested += Back;
         }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void Back(object sender, BackRequestedEventArgs e)
         {
+            Frame rootFrame = Window.Current.Content as Frame;
+            if (rootFrame == null)
+                return;
 
+            // Navigate back if possible, and if the event has not 
+            // already been handled .
+            if (rootFrame.CanGoBack && e.Handled == false)
+            {
+                e.Handled = true;
+                rootFrame.GoBack();
+            }
         }
+        /*protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            var currentView = SystemNavigationManager.GetForCurrentView();
+            currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+            Windows.UI.Core.SystemNavigationManager.GetForCurrentView().BackRequested += (s, a) =>
+            {
+                Debug.WriteLine("BackRequested");
+                if (Frame.CanGoBack)
+                {
+                    MyNavigationService.GoBack();
+                    a.Handled = true;
+                }
+            };
+        }*/
+
+        
     }
 }

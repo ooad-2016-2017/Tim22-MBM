@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SarajevoGO_.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -20,11 +21,13 @@ namespace SarajevoGO_
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class AdminTab1 : Page
+    public sealed partial class AdminTab : Page
     {
-        public AdminTab1()
+        AdminViewModel viewModel;
+        public AdminTab()
         {
             this.InitializeComponent();
+            viewModel = new AdminViewModel();
         }
 
         private void buttonCulture_Click(object sender, RoutedEventArgs e)

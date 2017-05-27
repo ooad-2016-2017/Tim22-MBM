@@ -8,25 +8,22 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="Assets/logo.png"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="ms-appx:///Assets/logo.png"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="80,65,0,0" TextWrapping="Wrap" Text="ACCEPT, DECLINE, ADD" VerticalAlignment="Top" Foreground="#FF2D6EE0" FontWeight="Bold" FontSize="18" RenderTransformOrigin="0.738,0.398"/>
         <Button x:Name="buttonback" Content="" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Height="33" Width="45">
             <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Assets/backbutton.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backbutton.png"/>
             </Button.Background>
         </Button>
         <Image x:Name="back_png" Margin="12,0,0,311" Source="res/back.png" Stretch="Fill" RenderTransformOrigin="0.111,-0.125" HorizontalAlignment="Left" Width="44" Height="40" VerticalAlignment="Bottom"/>
         <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="15,190,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="149"/>
         <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="24" Margin="15,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="149" Text="Phone"/>
         <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Height="24" Margin="15,330,0,0" TextWrapping="Wrap" Text="Web" VerticalAlignment="Top" Width="149"/>
-        <Button x:Name="buttonsave" Content="Accept" HorizontalAlignment="Left" Margin="35,570,0,0" VerticalAlignment="Top" Width="110" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" Background="#FF4343C9" Foreground="#FFFFFDFD"/>
+        <Button x:Name="buttonsave" Content="Accept" HorizontalAlignment="Left" Margin="15,573,0,0" VerticalAlignment="Top" Width="110" Height="35" HorizontalContentAlignment="Center" VerticalContentAlignment="Stretch" Background="#FF4343C9" Foreground="#FFFFFDFD"/>
         <Button x:Name="buttoncancel" Content="Decline" HorizontalAlignment="Left" Margin="225,570,0,0" VerticalAlignment="Top" Width="110" Height="35" VerticalContentAlignment="Bottom" HorizontalContentAlignment="Center" Background="#FF4343C9" Foreground="White" RenderTransformOrigin="0.57,0.527" FontSize="14"/>
-        <Image x:Name="imagestrana" HorizontalAlignment="Left" Height="162" Margin="199,200,0,0" VerticalAlignment="Top" Width="143"/>
-        <RichTextBlock HorizontalAlignment="Left" Height="130" Margin="15,400,0,0" VerticalAlignment="Top" Width="327" SelectionChanged="RichTextBlock_SelectionChanged">
-            <Paragraph>
-                <Run Text="Details"/>
-            </Paragraph>
-        </RichTextBlock>
+        <Image x:Name="imagestrana" HorizontalAlignment="Left" Height="162" Margin="190,200,0,0" VerticalAlignment="Top" Width="143"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="15,380,0,0" TextWrapping="Wrap" Text="Details" VerticalAlignment="Top" Height="175" Width="320"/>
+
 
     </Grid>
 </Page>

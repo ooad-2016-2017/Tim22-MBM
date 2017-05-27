@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SarajevoGO_.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,29 @@ namespace SarajevoGO_
     /// </summary>
     public sealed partial class ListaActivity : Page
     {
+        GostViewModel viewModel;
+        //Button bhome;
         public ListaActivity()
         {
             this.InitializeComponent();
+            viewModel = new GostViewModel();
+           // bhome = this.buttonHome;
+           // var lastPage = Frame.BackStack.Last().SourcePageType;
+            /*if (null!= lastPage && true==lastPage.ToString().Contains("AdminTab.xaml"))
+            {
+                buttonHome.Visibility = Visibility.Collapsed;
+            }
+            else buttonHome.Visibility = Visibility.Visible;*/
         }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        /*private void buttonHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ActivityZaGosta));
+        }*/
     }
 }

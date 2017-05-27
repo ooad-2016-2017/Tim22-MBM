@@ -9,10 +9,10 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:ConnectionId='1' x:Name="label" Text="Please keep this Code &#xA;  as confirmation for&#xA;    your reservation." HorizontalAlignment="Left" Height="93" Margin="100,470,0,0" VerticalAlignment="Top" Width="203" Foreground="#FF5F8DF1" FontWeight="Bold" FontSize="16" RenderTransformOrigin="0.902,0.49" />
-        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="Assets/logo.png"/>
+        <Image x:ConnectionId='2' x:Name="image" HorizontalAlignment="Left" Height="44" Margin="73,0,0,0" VerticalAlignment="Top" Width="236" Source="ms-appx:///Assets/logo.png"/>
         <Button x:ConnectionId='3' x:Name="button1" Content="" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Height="33" Width="45">
             <Button.Background>
-                <ImageBrush Stretch="Fill" ImageSource="Assets/backbutton.png"/>
+                <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backbutton.png"/>
             </Button.Background>
         </Button>
         <Image x:ConnectionId='4' x:Name="image1" HorizontalAlignment="Left" Height="275" Margin="30,145,0,0" VerticalAlignment="Top" Width="300"/>

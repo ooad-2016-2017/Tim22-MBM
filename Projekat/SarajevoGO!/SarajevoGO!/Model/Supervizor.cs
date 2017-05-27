@@ -11,6 +11,7 @@ namespace SarajevoGO_.Model
     {
         public List<Kategorija> listaObjekata { get; set; }
         public List<Kategorija> listaZahtjeva { get; set; }
+        public int id { get; set;  }
         string tipSupervizora { get; set; }
 
         public Supervizor(string name, string pass, string tip) : base(name, pass)

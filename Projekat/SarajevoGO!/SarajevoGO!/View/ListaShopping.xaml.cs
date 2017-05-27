@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SarajevoGO_.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,16 @@ namespace SarajevoGO_
     /// </summary>
     public sealed partial class ListaShopping : Page
     {
+        GostViewModel viewModel;
         public ListaShopping()
         {
             this.InitializeComponent();
+            viewModel = new GostViewModel();
         }
+
+       /* private void buttonHome_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof());
+        }*/
     }
 }

@@ -138,12 +138,12 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[3] = "SarajevoGO_.ActivityZaGosta";
             _typeNameTable[4] = "SarajevoGO_.AdminPregledKategorija";
-            _typeNameTable[5] = "SarajevoGO_.AdminTab1";
+            _typeNameTable[5] = "SarajevoGO_.AdminTab";
             _typeNameTable[6] = "SarajevoGO_.CreatePlace";
             _typeNameTable[7] = "SarajevoGO_.CreatePlaceMapa";
             _typeNameTable[8] = "SarajevoGO_.Currencies";
             _typeNameTable[9] = "SarajevoGO_.KulturaZaAdmina";
-            _typeNameTable[10] = "SarajevoGO_.DodajKulturu";
+            _typeNameTable[10] = "SarajevoGO_.KulturaZaGosta";
             _typeNameTable[11] = "SarajevoGO_.ListaActivity";
             _typeNameTable[12] = "SarajevoGO_.ListaKultura";
             _typeNameTable[13] = "SarajevoGO_.ListaNightlife";
@@ -155,13 +155,13 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeNameTable[19] = "SarajevoGO_.NightlifeZaGosta";
             _typeNameTable[20] = "SarajevoGO_.PrihvatanjeRezervacije";
             _typeNameTable[21] = "SarajevoGO_.RestoranZaAdmina";
-            _typeNameTable[22] = "SarajevoGO_.DodajRestoran";
+            _typeNameTable[22] = "SarajevoGO_.RestoranZaGosta";
             _typeNameTable[23] = "SarajevoGO_.DodavanjeSupervizora";
             _typeNameTable[24] = "SarajevoGO_.Gost";
             _typeNameTable[25] = "SarajevoGO_.LoginForma";
             _typeNameTable[26] = "SarajevoGO_.MainPage";
             _typeNameTable[27] = "SarajevoGO_.Meni";
-            _typeNameTable[28] = "SarajevoGO_.Nightlife";
+            _typeNameTable[28] = "SarajevoGO_.NightlifeZaAdmina";
             _typeNameTable[29] = "SarajevoGO_.RezervacijaKafica";
             _typeNameTable[30] = "SarajevoGO_.RezervacijaKarata";
             _typeNameTable[31] = "SarajevoGO_.RezervacijaPotvrda";
@@ -172,7 +172,7 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeNameTable[36] = "SarajevoGO_.SmjestajZaAdmina";
             _typeNameTable[37] = "SarajevoGO_.SmjestajZaGosta";
             _typeNameTable[38] = "SarajevoGO_.SupervisorTab";
-            _typeNameTable[39] = "SarajevoGO_.Tips";
+            _typeNameTable[39] = "SarajevoGO_.TipsZaAdmina";
             _typeNameTable[40] = "SarajevoGO_.TipsZaGosta";
 
             _typeTable = new global::System.Type[41];
@@ -181,12 +181,12 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[3] = typeof(global::SarajevoGO_.ActivityZaGosta);
             _typeTable[4] = typeof(global::SarajevoGO_.AdminPregledKategorija);
-            _typeTable[5] = typeof(global::SarajevoGO_.AdminTab1);
+            _typeTable[5] = typeof(global::SarajevoGO_.AdminTab);
             _typeTable[6] = typeof(global::SarajevoGO_.CreatePlace);
             _typeTable[7] = typeof(global::SarajevoGO_.CreatePlaceMapa);
             _typeTable[8] = typeof(global::SarajevoGO_.Currencies);
             _typeTable[9] = typeof(global::SarajevoGO_.KulturaZaAdmina);
-            _typeTable[10] = typeof(global::SarajevoGO_.DodajKulturu);
+            _typeTable[10] = typeof(global::SarajevoGO_.KulturaZaGosta);
             _typeTable[11] = typeof(global::SarajevoGO_.ListaActivity);
             _typeTable[12] = typeof(global::SarajevoGO_.ListaKultura);
             _typeTable[13] = typeof(global::SarajevoGO_.ListaNightlife);
@@ -198,13 +198,13 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeTable[19] = typeof(global::SarajevoGO_.NightlifeZaGosta);
             _typeTable[20] = typeof(global::SarajevoGO_.PrihvatanjeRezervacije);
             _typeTable[21] = typeof(global::SarajevoGO_.RestoranZaAdmina);
-            _typeTable[22] = typeof(global::SarajevoGO_.DodajRestoran);
+            _typeTable[22] = typeof(global::SarajevoGO_.RestoranZaGosta);
             _typeTable[23] = typeof(global::SarajevoGO_.DodavanjeSupervizora);
             _typeTable[24] = typeof(global::SarajevoGO_.Gost);
             _typeTable[25] = typeof(global::SarajevoGO_.LoginForma);
             _typeTable[26] = typeof(global::SarajevoGO_.MainPage);
             _typeTable[27] = typeof(global::SarajevoGO_.Meni);
-            _typeTable[28] = typeof(global::SarajevoGO_.Nightlife);
+            _typeTable[28] = typeof(global::SarajevoGO_.NightlifeZaAdmina);
             _typeTable[29] = typeof(global::SarajevoGO_.RezervacijaKafica);
             _typeTable[30] = typeof(global::SarajevoGO_.RezervacijaKarata);
             _typeTable[31] = typeof(global::SarajevoGO_.RezervacijaPotvrda);
@@ -215,7 +215,7 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
             _typeTable[36] = typeof(global::SarajevoGO_.SmjestajZaAdmina);
             _typeTable[37] = typeof(global::SarajevoGO_.SmjestajZaGosta);
             _typeTable[38] = typeof(global::SarajevoGO_.SupervisorTab);
-            _typeTable[39] = typeof(global::SarajevoGO_.Tips);
+            _typeTable[39] = typeof(global::SarajevoGO_.TipsZaAdmina);
             _typeTable[40] = typeof(global::SarajevoGO_.TipsZaGosta);
         }
 
@@ -254,12 +254,12 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
         private object Activate_0_ActivityZaAdmina() { return new global::SarajevoGO_.ActivityZaAdmina(); }
         private object Activate_3_ActivityZaGosta() { return new global::SarajevoGO_.ActivityZaGosta(); }
         private object Activate_4_AdminPregledKategorija() { return new global::SarajevoGO_.AdminPregledKategorija(); }
-        private object Activate_5_AdminTab1() { return new global::SarajevoGO_.AdminTab1(); }
+        private object Activate_5_AdminTab() { return new global::SarajevoGO_.AdminTab(); }
         private object Activate_6_CreatePlace() { return new global::SarajevoGO_.CreatePlace(); }
         private object Activate_7_CreatePlaceMapa() { return new global::SarajevoGO_.CreatePlaceMapa(); }
         private object Activate_8_Currencies() { return new global::SarajevoGO_.Currencies(); }
         private object Activate_9_KulturaZaAdmina() { return new global::SarajevoGO_.KulturaZaAdmina(); }
-        private object Activate_10_DodajKulturu() { return new global::SarajevoGO_.DodajKulturu(); }
+        private object Activate_10_KulturaZaGosta() { return new global::SarajevoGO_.KulturaZaGosta(); }
         private object Activate_11_ListaActivity() { return new global::SarajevoGO_.ListaActivity(); }
         private object Activate_12_ListaKultura() { return new global::SarajevoGO_.ListaKultura(); }
         private object Activate_13_ListaNightlife() { return new global::SarajevoGO_.ListaNightlife(); }
@@ -271,13 +271,13 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
         private object Activate_19_NightlifeZaGosta() { return new global::SarajevoGO_.NightlifeZaGosta(); }
         private object Activate_20_PrihvatanjeRezervacije() { return new global::SarajevoGO_.PrihvatanjeRezervacije(); }
         private object Activate_21_RestoranZaAdmina() { return new global::SarajevoGO_.RestoranZaAdmina(); }
-        private object Activate_22_DodajRestoran() { return new global::SarajevoGO_.DodajRestoran(); }
+        private object Activate_22_RestoranZaGosta() { return new global::SarajevoGO_.RestoranZaGosta(); }
         private object Activate_23_DodavanjeSupervizora() { return new global::SarajevoGO_.DodavanjeSupervizora(); }
         private object Activate_24_Gost() { return new global::SarajevoGO_.Gost(); }
         private object Activate_25_LoginForma() { return new global::SarajevoGO_.LoginForma(); }
         private object Activate_26_MainPage() { return new global::SarajevoGO_.MainPage(); }
         private object Activate_27_Meni() { return new global::SarajevoGO_.Meni(); }
-        private object Activate_28_Nightlife() { return new global::SarajevoGO_.Nightlife(); }
+        private object Activate_28_NightlifeZaAdmina() { return new global::SarajevoGO_.NightlifeZaAdmina(); }
         private object Activate_29_RezervacijaKafica() { return new global::SarajevoGO_.RezervacijaKafica(); }
         private object Activate_30_RezervacijaKarata() { return new global::SarajevoGO_.RezervacijaKarata(); }
         private object Activate_31_RezervacijaPotvrda() { return new global::SarajevoGO_.RezervacijaPotvrda(); }
@@ -288,7 +288,7 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
         private object Activate_36_SmjestajZaAdmina() { return new global::SarajevoGO_.SmjestajZaAdmina(); }
         private object Activate_37_SmjestajZaGosta() { return new global::SarajevoGO_.SmjestajZaGosta(); }
         private object Activate_38_SupervisorTab() { return new global::SarajevoGO_.SupervisorTab(); }
-        private object Activate_39_Tips() { return new global::SarajevoGO_.Tips(); }
+        private object Activate_39_TipsZaAdmina() { return new global::SarajevoGO_.TipsZaAdmina(); }
         private object Activate_40_TipsZaGosta() { return new global::SarajevoGO_.TipsZaGosta(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -330,9 +330,9 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  SarajevoGO_.AdminTab1
+            case 5:   //  SarajevoGO_.AdminTab
                 userType = new global::SarajevoGO_.SarajevoGO__XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_AdminTab1;
+                userType.Activator = Activate_5_AdminTab;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -365,9 +365,9 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 10:   //  SarajevoGO_.DodajKulturu
+            case 10:   //  SarajevoGO_.KulturaZaGosta
                 userType = new global::SarajevoGO_.SarajevoGO__XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_10_DodajKulturu;
+                userType.Activator = Activate_10_KulturaZaGosta;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -449,9 +449,9 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 22:   //  SarajevoGO_.DodajRestoran
+            case 22:   //  SarajevoGO_.RestoranZaGosta
                 userType = new global::SarajevoGO_.SarajevoGO__XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_22_DodajRestoran;
+                userType.Activator = Activate_22_RestoranZaGosta;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -491,9 +491,9 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 28:   //  SarajevoGO_.Nightlife
+            case 28:   //  SarajevoGO_.NightlifeZaAdmina
                 userType = new global::SarajevoGO_.SarajevoGO__XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_28_Nightlife;
+                userType.Activator = Activate_28_NightlifeZaAdmina;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -568,9 +568,9 @@ namespace SarajevoGO_.SarajevoGO__XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 39:   //  SarajevoGO_.Tips
+            case 39:   //  SarajevoGO_.TipsZaAdmina
                 userType = new global::SarajevoGO_.SarajevoGO__XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_39_Tips;
+                userType.Activator = Activate_39_TipsZaAdmina;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
