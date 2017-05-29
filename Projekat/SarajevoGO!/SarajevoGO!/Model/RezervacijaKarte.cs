@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SarajevoGO_.Model
 {
-    public class RezervacijaKarte
+    public class RezervacijaKartee
     {
         public Kultura mjesto;
         public int brojOdraslih { get; set; }
         public int brojDjece { get; set; }
         public DateTime vrijemeDolaska { get; set; }
-        public RezervacijaKarte(string naziv, string odrasli, string djeca, DateTime dolazak)
+        public RezervacijaKartee(string naziv, string odrasli, string djeca, DateTime dolazak)
         {
             Kategorija k = Sistem.PretragaObjekata(naziv);
             if (k is Kultura)

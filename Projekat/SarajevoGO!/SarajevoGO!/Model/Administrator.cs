@@ -4,12 +4,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
+using System.Runtime.Serialization;
 
 namespace SarajevoGO_.Model
 {
+    [DataContract]
     public class Administrator : Korisnik
     {
+        [DataMember]
         public List<Supervizor> listaSupervizora;
+        [DataMember]
         public List<Kategorija> listaKategorija;
         public Administrator(string name, string pass) : base(name, pass)
         {
@@ -31,5 +36,6 @@ namespace SarajevoGO_.Model
             listaSupervizora.Remove(s);
             Sistem.listaSupervizora.Remove(s);
         }
+        public Administrator() { }
     }
 }

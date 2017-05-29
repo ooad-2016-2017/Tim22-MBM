@@ -4,15 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
+using System.ComponentModel;
+using System.Runtime.Serialization;
 
 namespace SarajevoGO_.Model
 {
+    [DataContract]
     public class Supervizor : Korisnik
     {
+        [DataMember]
         public List<Kategorija> listaObjekata { get; set; }
+        [DataMember]
         public List<Kategorija> listaZahtjeva { get; set; }
+        [DataMember]
         public int id { get; set;  }
+        [DataMember]
         string tipSupervizora { get; set; }
+        public Supervizor() { }
 
         public Supervizor(string name, string pass, string tip) : base(name, pass)
         {
