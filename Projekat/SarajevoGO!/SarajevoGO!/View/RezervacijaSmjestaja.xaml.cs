@@ -23,22 +23,11 @@ namespace SarajevoGO_
     /// </summary>
     public sealed partial class RezervacijaSmjestaja : Page
     {
-        private bool d;
-        private DateTime dolazak;
-        private int godine;
-        private string naziv;
-        private DateTime odlazak;
-        private bool r;
-        private bool v;
         RezervacijaViewModel viewModel;
-        private string vrsta;
-
         public RezervacijaSmjestaja()
         {
             this.InitializeComponent();
             viewModel = new RezervacijaViewModel();
         }
-
-        
     }
 }

@@ -95,6 +95,7 @@
     <Compile Include="Helper\INavigation.cs" />
     <Compile Include="Helper\NavigationService.cs" />
     <Compile Include="Helper\RelayCommand.cs" />
+    <Compile Include="Model\DbCon.cs" />
     <Compile Include="Model\Gost.cs" />
     <Compile Include="Model\Korisnik.cs" />
     <Compile Include="Model\RezervacijaKafica.cs" />

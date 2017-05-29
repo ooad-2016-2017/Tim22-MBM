@@ -30,9 +30,6 @@ namespace SarajevoGO_
             viewModel = new AdminViewModel();
         }
 
-        private void buttonCulture_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }

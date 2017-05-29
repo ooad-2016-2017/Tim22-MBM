@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -28,11 +29,30 @@ namespace SarajevoGO_
         {
             this.InitializeComponent();
             viewModel = new GostViewModel();
+
+        }
+        private bool CheckLastPage(Type desiredPage)
+        {
+            var lastPage = Frame.BackStack.LastOrDefault();
+            return (lastPage != null && lastPage.SourcePageType.Equals(desiredPage)) ? true : false;
         }
 
-       /* private void buttonHome_Click(object sender, RoutedEventArgs e)
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-            this.Frame.Navigate(typeof());
-        }*/
+            base.OnNavigatedTo(e);
+            if (CheckLastPage(typeof(AdminTab)))
+            {
+                this.buttonHome.Visibility = Visibility.Collapsed;
+                this.buttonSearch.Visibility = Visibility.Collapsed;
+                this.buttonCreate.Visibility = Visibility.Collapsed;
+                //await new MessageDialog("Previous is AdminTab").ShowAsync();
+            }
+            
+        }
+
+        /* private void buttonHome_Click(object sender, RoutedEventArgs e)
+         {
+             this.Frame.Navigate(typeof());
+         }*/
     }
 }

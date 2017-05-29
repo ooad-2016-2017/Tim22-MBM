@@ -29,5 +29,23 @@ namespace SarajevoGO_
             this.InitializeComponent();
             viewModel = new GostViewModel();
         }
+        private bool CheckLastPage(Type desiredPage)
+        {
+            var lastPage = Frame.BackStack.LastOrDefault();
+            return (lastPage != null && lastPage.SourcePageType.Equals(desiredPage)) ? true : false;
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            if (CheckLastPage(typeof(AdminTab)))
+            {
+                this.buttonHome.Visibility = Visibility.Collapsed;
+                this.buttonSearch.Visibility = Visibility.Collapsed;
+                this.buttonCreate.Visibility = Visibility.Collapsed;
+                //await new MessageDialog("Previous is AdminTab").ShowAsync();
+            }
+
+        }
     }
 }

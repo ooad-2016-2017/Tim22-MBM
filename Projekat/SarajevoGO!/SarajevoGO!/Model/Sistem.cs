@@ -8,18 +8,19 @@ namespace SarajevoGO_.Model
 {
     public static class Sistem
     {
-        public static List<RezervacijaKaficaa> listaRezervacijaKafica;
-        public static List<RezervacijaKartee> listaRezervacijaKarte;
-        public static List<RezervacijaSmjestajaa> listaRezervacijaSmjestaja;
+        public static List<RezervacijaKafica> listaRezervacijaKafica;
+        public static List<RezervacijaKarte> listaRezervacijaKarte;
+        public static List<RezervacijaSmjestaja> listaRezervacijaSmjestaja;
         public static List<Supervizor> listaSupervizora;
         public static List<Kategorija> listaKategorija;
         static Sistem()
         {
             listaKategorija = new List<Kategorija>();
-            listaRezervacijaKafica = new List<RezervacijaKaficaa>();
-            listaRezervacijaKarte = new List<RezervacijaKartee>();
-            listaRezervacijaSmjestaja = new List<RezervacijaSmjestajaa>();
+            listaRezervacijaKafica = new List<RezervacijaKafica>();
+            listaRezervacijaKarte = new List<RezervacijaKarte>();
+            listaRezervacijaSmjestaja = new List<RezervacijaSmjestaja>();
             listaSupervizora = new List<Supervizor>();
+            listaSupervizora.Add(new Supervizor("Supervizor", "Supervizor", "smjestaj"));
         }
         public static Kategorija PretragaObjekata(string naziv)
         {

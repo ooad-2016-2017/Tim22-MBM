@@ -17,8 +17,8 @@
         </Button>
 
         <Button x:ConnectionId='5' x:Name="button" Content="Confirm" HorizontalAlignment="Left" Margin="125,409,0,0" VerticalAlignment="Top" Width="130" Background="#FF4343C9" Foreground="#FFFDF4F4" Height="40"                                              />
-        <TextBox x:ConnectionId='6' x:Name="Username" HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="340"/>
-        <TextBox x:ConnectionId='7' x:Name="Username_Copy" HorizontalAlignment="Left" Margin="10,303,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="340"/>
+        <TextBox x:ConnectionId='6' x:Name="Username" HorizontalAlignment="Left" Margin="10,250,0,0" TextWrapping="Wrap"                                                 VerticalAlignment="Top" Width="340"/>
+        <TextBox x:ConnectionId='7' x:Name="Password" HorizontalAlignment="Left" Margin="10,303,0,0" TextWrapping="Wrap"                                                 VerticalAlignment="Top" Width="340"/>
 
 
     </Grid>

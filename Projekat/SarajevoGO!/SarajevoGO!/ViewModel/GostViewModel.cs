@@ -7,8 +7,6 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using SarajevoGO_.Model;
-using Windows.UI.Popups;
 
 namespace SarajevoGO_.ViewModel
 {
@@ -119,7 +117,7 @@ namespace SarajevoGO_.ViewModel
 
         private void home(object parameter)
         {
-            MyNavigationService.Navigate(typeof(MainPage));
+            MyNavigationService.Navigate(typeof(Gost));
           
         }
 
@@ -136,78 +134,14 @@ namespace SarajevoGO_.ViewModel
         {
             MyNavigationService.Navigate(typeof(RezervacijaSmjestaja));
         }
-
-        public async void rezsmjestaja(string naziv, DateTime dolazak, DateTime odlazak, bool d, bool r, bool v, string vrsta, Int32 godine)
-        {
-            RezervacijaSmjestajaa smjestaj = new RezervacijaSmjestajaa(naziv, dolazak, odlazak, d, r, v, vrsta, godine);
-            if (smjestaj.provjeraDostupnosti() == false)
-            {
-                var messageDialog = new MessageDialog("Smjestaj nije dostupan!");
-                await messageDialog.ShowAsync();
-            }
-            if(naziv=="" || vrsta=="" || godine.ToString() == "")
-            {
-                var messageDialog = new MessageDialog("Svako polje mora biti popunjeno!");
-                await messageDialog.ShowAsync();
-            }
-            if(dolazak>odlazak || dolazak < DateTime.Today)
-            {
-                var messageDialog = new MessageDialog("Neispravan datum dolaska!");
-                await messageDialog.ShowAsync();
-            }
-        }
         private void rezkafica(object parameter)
         {
             MyNavigationService.Navigate(typeof(RezervacijaKafica));
-        }
-
-        public async void rezkafica(string naziv, DateTime dolazak, string brStolova)
-        {
-            RezervacijaKaficaa kafic = new RezervacijaKaficaa(naziv, dolazak, brStolova);
-            if (kafic.provjeraDostupnosti() == false)
-            {
-                var messageDialog = new MessageDialog("Kafic je popunjen!");
-                await messageDialog.ShowAsync();
-            }
-            if (dolazak < DateTime.Today)
-            {
-                var messageDialog = new MessageDialog("Neispravan datum dolaska!");
-                await messageDialog.ShowAsync();
-            }
-            if (naziv == "" ||brStolova == "")
-            {
-                var messageDialog = new MessageDialog("Svako polje mora biti popunjeno!");
-                await messageDialog.ShowAsync();
-            }
-
-
         }
         private void rezkarata(object parameter)
         {
             MyNavigationService.Navigate(typeof(RezervacijaKarata));
         }
-
-        public async void rezkarata(string naziv, string brO, string brD, DateTime datum)
-        {
-            RezervacijaKartee karta = new RezervacijaKartee(naziv, brO, brD, datum);
-            if (karta.provjeraDostupnosti() == false)
-            {
-                var messageDialog = new MessageDialog("Nema vise karata!");
-                await messageDialog.ShowAsync();
-            }
-            if (datum < DateTime.Today)
-            {
-                var messageDialog = new MessageDialog("Neispravan datum dolaska!");
-                await messageDialog.ShowAsync();
-            }
-            if (naziv == "" ||brO == "" || brD=="")
-            {
-                var messageDialog = new MessageDialog("Svako polje mora biti popunjeno!");
-                await messageDialog.ShowAsync();
-            }
-
-        }
-        
         
         private void meni(object parameter)
         {

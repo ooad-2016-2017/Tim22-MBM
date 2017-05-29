@@ -1,5 +1,4 @@
 ﻿using SarajevoGO_.Helper;
-using SarajevoGO_.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,33 +6,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using Windows.UI.Popups;
 
 namespace SarajevoGO_.ViewModel
 {
     class AdminViewModel : INotifyPropertyChanged
     {
-
-        private string username;
-        private string pass;
-        private string tipSupervizora;
-
-        public string Username
-        {
-            get
-            {
-                return username;
-            }
-
-            set
-            {
-                username = value;
-              //  NotifyPropertyChanged("Username");
-            }
-        }
-
-        Supervizor sup = new Supervizor();
-        Administrator admin = new Administrator();
+        public int pomoc = 0;
         public INavigation MyNavigationService { get; set; }
         public ICommand DodajKomanda { get; set; }
         public ICommand SmjestajKomanda { get; set; }
@@ -50,32 +28,6 @@ namespace SarajevoGO_.ViewModel
         public ICommand AktivnostListaKomanda { get; set; }
         public ICommand KulturaListaKomanda { get; set; }
         public ICommand ShoppingListaKomanda { get; set; }
-
-        public string Pass
-        {
-            get
-            {
-                return pass;
-            }
-
-            set
-            {
-                pass = value;
-            }
-        }
-
-        public string TipSupervizora
-        {
-            get
-            {
-                return tipSupervizora;
-            }
-
-            set
-            {
-                tipSupervizora = value;
-            }
-        }
 
         public AdminViewModel()
         {
@@ -102,8 +54,6 @@ namespace SarajevoGO_.ViewModel
         {
             MyNavigationService.Navigate(typeof(DodavanjeSupervizora));
         }
-
-
 
         private bool canGo(object parameter)
         {
@@ -133,7 +83,7 @@ namespace SarajevoGO_.ViewModel
         }
         private void listashopping(object parameter)
         {
-            MyNavigationService.Navigate(typeof(ListaShopping));
+            MyNavigationService.Navigate(typeof(ListaShopping),1);
         }
 
         private void smjestaj(object parameter)
@@ -167,37 +117,6 @@ namespace SarajevoGO_.ViewModel
         private void tips(object parameter)
         {
             MyNavigationService.Navigate(typeof(TipsZaAdmina));
-        }
-
-        public async void dodaj(string name, string password, string type)
-        {
-            bool a = postojiLiVec(name);
-            if (a == true)
-            {
-                var messageDialog = new MessageDialog("Postoji vec taj supervizor!");
-                await messageDialog.ShowAsync();
-            }
-           else if(name=="" || password=="" ||type == "")
-            {
-                var messageDialog = new MessageDialog("Sva polja moraju bit popunjena!");
-                await messageDialog.ShowAsync();
-            }
-            else
-            {
-                admin.dodajSupervizora(name, password, type);
-                var messageDialog = new MessageDialog("Uspjesno ste dodali supervizora!");
-                await messageDialog.ShowAsync();
-            }
-        }
-        public bool postojiLiVec(string username)
-        {
-            bool a = false;
-            foreach(Supervizor s in admin.listaSupervizora)
-            {
-                if (s.username == username)
-                    a = true;
-            }
-            return a;
         }
 
         public event PropertyChangedEventHandler PropertyChanged;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SarajevoGO_.Model
 {
-    public class RezervacijaSmjestajaa
+    public class RezervacijaSmjestaja
     {
         public Smjestaj smjestaj;
         public DateTime dolazak { get; set; }
@@ -14,7 +14,7 @@ namespace SarajevoGO_.Model
         public bool dorucak, rucak, vecera;
         public string vrstaSobe { get; set; }
         public Int32 godiste { get; set; }
-        public RezervacijaSmjestajaa(string naziv, DateTime dol, DateTime odl, bool d, bool r, bool v, string vrsta, Int32 godine)
+        public RezervacijaSmjestaja(string naziv, DateTime dol, DateTime odl, bool d, bool r, bool v, string vrsta, Int32 godine)
         {
             Kategorija k = Sistem.PretragaObjekata(naziv);
             if (k is Smjestaj)

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace SarajevoGO_.Model
 {
-    public class RezervacijaKaficaa
+    public class RezervacijaKafica
     {
         public NocniZivot kafic;
         public DateTime vrijemeDolaska { get; set; }
         public Int32 brojStolova { get; set; }
-        public RezervacijaKaficaa(string naziv, DateTime vrijeme, string broj)
+        public RezervacijaKafica(string naziv, DateTime vrijeme, string broj)
         {
             Kategorija k = Sistem.PretragaObjekata(naziv);
             if (k is NocniZivot)

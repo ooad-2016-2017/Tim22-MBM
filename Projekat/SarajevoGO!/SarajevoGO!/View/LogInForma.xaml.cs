@@ -34,20 +34,14 @@ namespace SarajevoGO_
             viewModel = new LoginViewModel();
             var currentView = SystemNavigationManager.GetForCurrentView();
             currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
-            currentView.BackRequested += Back;
+            SystemNavigationManager.GetForCurrentView().BackRequested += ThisPage_BackRequested;
         }
-        private void Back(object sender, BackRequestedEventArgs e)
+        private void ThisPage_BackRequested(object sender, BackRequestedEventArgs e)
         {
-            Frame rootFrame = Window.Current.Content as Frame;
-            if (rootFrame == null)
-                return;
-
-            // Navigate back if possible, and if the event has not 
-            // already been handled .
-            if (rootFrame.CanGoBack && e.Handled == false)
+            if (Frame.CanGoBack)
             {
+                Frame.GoBack();
                 e.Handled = true;
-                rootFrame.GoBack();
             }
         }
         /*protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -65,6 +59,6 @@ namespace SarajevoGO_
             };
         }*/
 
-        
+
     }
 }

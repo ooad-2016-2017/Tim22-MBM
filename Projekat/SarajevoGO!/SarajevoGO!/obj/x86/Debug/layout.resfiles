@@ -1,4 +1,6 @@
 WinMetadata\Windows.winmd
+EntityFramework.Commands.dll
+EntityFramework.Commands.xml
 Assets\accom.png
 Assets\activity.png
 Assets\admin.png
