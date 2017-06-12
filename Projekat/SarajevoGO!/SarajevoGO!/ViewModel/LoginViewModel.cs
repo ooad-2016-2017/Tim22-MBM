@@ -8,6 +8,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using Windows.UI.Popups;
 
 namespace SarajevoGO_.ViewModel
 {
@@ -28,6 +29,7 @@ namespace SarajevoGO_.ViewModel
                 OnPropChanged("Username");
             }
         }
+
         public string Password
         {
             get { return _Password; }
@@ -57,8 +59,49 @@ namespace SarajevoGO_.ViewModel
             BackKomanda = new RelayCommand<object>(back, canGo);
             LogovanjeKomanda = new RelayCommand<object>(log, canGo);
         }
+        private async void log(object parametar)
+        {
+            bool a = DaLiJeSupervizor();
+            if ((_Password != "Admin" && _Username != "Admin" && _Password!="" && _Username!=""))
+            {
+                var messageDialog = new MessageDialog("Username/password nije ispravan!");
+                await messageDialog.ShowAsync();
+            }
+            else if (_Password == "" || _Username == "")
+            {
+                var messageDialog1 = new MessageDialog("Morate popuniti sva polja!");
+                await messageDialog1.ShowAsync();
+            }
+           /* else if (a == false)
+            {
+                var messageDialog = new MessageDialog("Username/password nije ispravan!");
+                await messageDialog.ShowAsync();
+            }*/
+            
+           else if (_Username == "Admin" && _Password == "Admin" && _Password != "" && _Username != "")
+            {
+                MyNavigationService.Navigate(typeof(AdminTab));
+            }
+           else if (a == true)
+            {
+                MyNavigationService.Navigate(typeof(SupervisorTab));
+            }
+            
 
-        private void log(object parameter)
+        }
+
+        public bool DaLiJeSupervizor()
+        {
+            bool a = false;
+            foreach (Supervizor s in Sistem.listaSupervizora)
+            {
+                if (s.username == _Username && s.password ==_Password)
+                    a = true;
+            }
+            return a;
+
+        }
+        /*private async void log(object parameter)
         {
 
             /*user = Sistem.listaSupervizora.Where(x => x.username == Username && x.password == Password).FirstOrDefault();
@@ -71,9 +114,9 @@ namespace SarajevoGO_.ViewModel
                   MyNavigationService.Navigate(typeof(AdminTab));
               }*/
 
-            MyNavigationService.Navigate(typeof(RezervacijaSmjestaja));
+      /*      MyNavigationService.Navigate(typeof(RezervacijaSmjestaja));
             //MyNavigationService.Navigate(typeof(AdminTab));
-        }
+        }*/
 
         private void back(object parameter)
         {

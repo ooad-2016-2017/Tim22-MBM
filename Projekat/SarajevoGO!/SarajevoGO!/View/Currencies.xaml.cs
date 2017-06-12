@@ -7,6 +7,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Core;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -41,6 +42,37 @@ namespace SarajevoGO_
                     a.Handled = true;
                 }
             };
+        }
+
+        private async void button_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            string a = textBox.Text;
+            Double rez=0;
+          
+            
+            if (a == "")
+            {
+                var messageDialog1 = new MessageDialog("Morate unijeti iznos novca!");
+                await messageDialog1.ShowAsync();
+            }
+            else
+            {
+                if (comboBox.SelectedIndex.ToString() == "1" && comboBox1.SelectedIndex.ToString() == "0")
+                {
+                    rez += (Convert.ToDouble(a) * 1.75);
+                    textBox1.Text = rez.ToString();
+                }
+                else if (comboBox.SelectedIndex.ToString() == "0" && comboBox1.SelectedIndex.ToString() == "0")
+                {
+                    rez += (Convert.ToDouble(a) * 1.95);
+                    textBox1.Text = rez.ToString();
+                }
+                else if (comboBox.SelectedIndex.ToString() == "2" && comboBox1.SelectedIndex.ToString() == "0")
+                {
+                    rez += (Convert.ToDouble(a) * 0.26);
+                    textBox1.Text = rez.ToString();
+                }
+            }
         }
     }
 }

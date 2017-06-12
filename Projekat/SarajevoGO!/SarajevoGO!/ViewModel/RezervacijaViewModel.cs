@@ -231,7 +231,7 @@ namespace SarajevoGO_.ViewModel
         }
 
 
-        private void rezkonacna(object parameter)
+        private async void rezkonacna(object parameter)
         {
             
             // nova.kafic.tip = Tip;
@@ -252,16 +252,16 @@ namespace SarajevoGO_.ViewModel
                 nova.kafic.brojStolova[dan - 1] = nova.kafic.brojStolova[dan - 1] - nova.brojStolova;
 
                 var dialog = new MessageDialog("Uspjesno ste rezervisali kafic.");
-                dialog.ShowAsync();
+               await dialog.ShowAsync();
                 Sistem.listaRezervacijaKafica.Add(nova);
             }
             else
             {
                 var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
-                dialog.ShowAsync();
+             await   dialog.ShowAsync();
             }
         }
-        private void rezkonacnakarata(object parameter)
+        private async void rezkonacnakarata(object parameter)
         {
             rezkarata.brojDjece = Convert.ToInt32(KartaD);
             rezkarata.brojOdraslih = Convert.ToInt32(KartaO);
@@ -284,14 +284,14 @@ namespace SarajevoGO_.ViewModel
                 // rezkarata.mjesto.rezervisiKartu(rezkarata.brojDjece + rezkarata.brojOdraslih, rezkarata.vrijemeDolaska.Day);
                 rezkarata.mjesto.brojMjesta[dan - 1] = rezkarata.mjesto.brojMjesta[dan - 1] - rezkarata.brojDjece + rezkarata.brojOdraslih;
                 var dialog = new MessageDialog("Uspjesno ste rezervisali karte. Cijena je " + cijena + " BAM.");
-                dialog.ShowAsync();
+                await dialog.ShowAsync();
                 Sistem.listaRezervacijaKarte.Add(rezkarata);
             
             }
             else
             {
                 var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
-                dialog.ShowAsync();
+                await dialog.ShowAsync();
             }
         }
 
@@ -395,7 +395,7 @@ namespace SarajevoGO_.ViewModel
             else
             {
                 var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
-                dialog.ShowAsync();
+                await dialog.ShowAsync();
                 popust = false;
                 dostupnismjestaj = true;
              

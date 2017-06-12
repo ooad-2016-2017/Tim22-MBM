@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.WindowsAzure.MobileServices;
 using Windows.UI.Popups;using SarajevoGO_.Model;
+using Microsoft.Data.Entity.Metadata;
+
 
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
@@ -26,30 +28,64 @@ namespace SarajevoGO_
     public sealed partial class DodavanjeSupervizora : Page
     {
         IMobileServiceTable<Supervizor> userTableObj = App.MobileService.GetTable<Supervizor>();
-        private void button_Tapped(object sender, TappedRoutedEventArgs e)
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private async void button_Tapped(object sender, TappedRoutedEventArgs e)
         {
             try
             {
-                Supervizor obj = new Supervizor();
-                obj.username = this.textBox.Text;
-                obj.password = this.textBox1.Text;
-                //obj.ti txtIndeks.Text;
-                userTableObj.InsertAsync(obj);
-                Sistem.listaSupervizora.Add(new Supervizor(this.textBox.Text, this.textBox1.Text));
-                MessageDialog msgDialog = new MessageDialog("Uspješno ste unijeli novog supervizora.");
+                bool a = postojiLiVec();
+                if (a == true)
+                {
+                    var messageDialog = new MessageDialog("Postoji vec taj supervizor!");
+                    await messageDialog.ShowAsync();
+                }
+                else if (this.textBox1.Text == "" || this.textBox.Text == "")
+                {
+                    var messageDialog = new MessageDialog("Sva polja moraju bit popunjena!");
+                    await messageDialog.ShowAsync();
+                }
+                else
+                {
+                    Supervizor obj = new Supervizor();
+                    obj.username = this.textBox.Text;
+                    obj.password = this.textBox1.Text;
+                    //obj.ti txtIndeks.Text;
+                 //   await userTableObj.InsertAsync(obj);
+                    Sistem.listaSupervizora.Add(new Supervizor(this.textBox.Text, this.textBox1.Text));
+                    MessageDialog msgDialog = new MessageDialog("Uspješno ste unijeli novog supervizora.");
 
-                msgDialog.ShowAsync();
+                    await msgDialog.ShowAsync();
+                    this.textBox.Text = "";
+                    this.textBox1.Text = "";
+
+                }
             }
             catch (Exception ex)
             {
                 MessageDialog msgDialogError = new MessageDialog("Error : " + ex.ToString());
-                msgDialogError.ShowAsync();
+                await msgDialogError.ShowAsync();
             }
+        }
+        public bool postojiLiVec()
+        {
+            bool a = false;
+            foreach (Supervizor s in Sistem.listaSupervizora)
+            {
+                if (s.username == this.textBox.Text)
+                    a = true;
+            }
+            return a;
         }
 
         public DodavanjeSupervizora()
         {
             this.InitializeComponent();
+            
         }
     }
 }

@@ -29,11 +29,13 @@ namespace SarajevoGO_.ViewModel
         public ICommand KulturaListaKomanda { get; set; }
         public ICommand ShoppingListaKomanda { get; set; }
 
+    //    public ICommand DodajSupKomanda { get; set; }
+
         public AdminViewModel()
         {
             MyNavigationService = new NavigationService();
             DodajKomanda = new RelayCommand<object>(dodaj, canGo);
-
+           // DodajSupKomanda = new RelayCommand<object>(dodajSup, canGo);
             SmjestajKomanda = new RelayCommand<object>(smjestaj, canGo);
             RestoranKomanda = new RelayCommand<object>(restoran, canGo);
             KaficKomanda = new RelayCommand<object>(kafic, canGo);
@@ -50,10 +52,18 @@ namespace SarajevoGO_.ViewModel
             KulturaListaKomanda = new RelayCommand<object>(listakultura, canGo);
             ShoppingListaKomanda = new RelayCommand<object>(listashopping, canGo);
         }
+
+       /* private async void dodajSup(object obj)
+        {
+           
+        }*/
+
         public void dodaj(object parameter)
         {
             MyNavigationService.Navigate(typeof(DodavanjeSupervizora));
         }
+
+        
 
         private bool canGo(object parameter)
         {

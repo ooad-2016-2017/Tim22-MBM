@@ -16,14 +16,24 @@
             </Button.Background>
         </Button>
         <TextBox x:ConnectionId='3' x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="96,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
-        <TextBox x:ConnectionId='4' x:Name="textBox1" HorizontalAlignment="Left" Height="20" Margin="96,480,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"/>
+        <TextBox x:ConnectionId='4' x:Name="textBox1" HorizontalAlignment="Left" Height="20" Margin="96,480,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200"  IsReadOnly="True"/>
         <TextBlock x:ConnectionId='5' x:Name="textBlock" HorizontalAlignment="Left" Margin="125,65,0,0" TextWrapping="Wrap" Text="CURRENCIES" VerticalAlignment="Top" Foreground="#FF2D6EE0" FontWeight="Bold" FontSize="18" RenderTransformOrigin="0.738,0.398"/>
-        <ComboBox x:ConnectionId='6' x:Name="comboBox" HorizontalAlignment="Left" Margin="232,308,0,0" VerticalAlignment="Top" Width="64"/>
-        <ComboBox x:ConnectionId='7' x:Name="comboBox1" HorizontalAlignment="Left" Margin="232,425,0,0" VerticalAlignment="Top" Width="64"/>
+        <ComboBox x:ConnectionId='6' x:Name="comboBox" HorizontalAlignment="Left" Margin="167,308,0,0" VerticalAlignment="Top" Width="129">
+            <TextBox IsReadOnly="True" Text="EUR"/>
+            <TextBox IsReadOnly="True" Text="USD"/>
+            
+            <TextBox IsReadOnly="True" Text="HRK"/>
+        </ComboBox>
+        <ComboBox x:ConnectionId='7' x:Name="comboBox1" HorizontalAlignment="Left" Margin="167,425,0,0" VerticalAlignment="Top" Width="129">
+            
+            <TextBox IsReadOnly="True" Text="BAM"/>
+           
+        </ComboBox>
         <Image x:ConnectionId='8' x:Name="image" HorizontalAlignment="Left" Height="52" Margin="100,296,0,0" VerticalAlignment="Top" Width="62">
 
         </Image>
         <Image x:ConnectionId='9' x:Name="image1" HorizontalAlignment="Left" Height="52" Margin="100,423,0,0" VerticalAlignment="Top" Width="62" RenderTransformOrigin="0.189,0.18"/>
+        <Button x:ConnectionId='10' x:Name="button" Content="Convert" HorizontalAlignment="Left" Margin="125,578,0,0" VerticalAlignment="Top" Height="52" Width="108" Background="#66FFFFFF"                       />
 
     </Grid>
 </Page>

@@ -100,6 +100,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -125,7 +128,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -2370,6 +2376,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -2395,7 +2404,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -4487,6 +4499,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -4512,7 +4527,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -6561,6 +6579,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -6586,7 +6607,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -8687,6 +8711,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -8712,7 +8739,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -10761,6 +10791,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -10786,7 +10819,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -12887,6 +12923,9 @@
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "6.0.4"
         },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
         "compile": {
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.Ext.dll": {},
           "lib/netcore45/Microsoft.WindowsAzure.Mobile.dll": {}
@@ -12912,7 +12951,10 @@
         "type": "package"
       },
       "Microsoft.CodeAnalysis.Analyzers/1.0.0": {
-        "type": "package"
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ]
       },
       "Microsoft.CodeAnalysis.Common/1.0.0": {
         "type": "package",
@@ -18701,7 +18743,5 @@
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.1.0"
     ],
     "UAP,Version=v10.0": []
-  },
-  "tools": {},
-  "projectFileToolGroups": {}
+  }
 }

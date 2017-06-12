@@ -26,7 +26,16 @@ namespace SarajevoGO_
     {
         public TipsZaGosta()
         {
+
             this.InitializeComponent();
+            listView.Items.Add("Posjetite Bašcaršiju!");
+            listView.Items.Add("Jedite ćevape!");
+            listView.Items.Add("Naučite historiju Sarajeva!");
+            listView.Items.Add("Probajte bosansku kahvu!");
+            listView.Items.Add("Probajte tradiconalne bosanske slatkiše (tufahija, baklava..)!");
+            listView.Items.Add("Hranite golubove kod Sebilja!");
+            listView.Items.Add("Posjetite mjesto gdje je započeo Prvi svjetski rat!");
+            listView.Items.Add("Posjetite Olimpijsku bob stazu!");
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
