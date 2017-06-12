@@ -245,20 +245,28 @@ namespace SarajevoGO_.ViewModel
             
             // provjera dostupnosoti
             if (nova.kafic.brojStolova[dan - 1] - nova.brojStolova >= 0) dostupna = true;
-            if (dostupna == true)
+            if (Naziv == "")
             {
-                // smanjiti karte, mozda ovako ???
-                // ovako je u funkciji u klasi bilo : brojStolova[dan - 1] -= broj;
-                nova.kafic.brojStolova[dan - 1] = nova.kafic.brojStolova[dan - 1] - nova.brojStolova;
-
-                var dialog = new MessageDialog("Uspjesno ste rezervisali kafic.");
-               await dialog.ShowAsync();
-                Sistem.listaRezervacijaKafica.Add(nova);
+                var messageDialog1 = new MessageDialog("Popunite sva polja.");
+                await messageDialog1.ShowAsync();
             }
             else
             {
-                var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
-             await   dialog.ShowAsync();
+                if (dostupna == true)
+                {
+                    // smanjiti karte, mozda ovako ???
+                    // ovako je u funkciji u klasi bilo : brojStolova[dan - 1] -= broj;
+                    nova.kafic.brojStolova[dan - 1] = nova.kafic.brojStolova[dan - 1] - nova.brojStolova;
+
+                    var dialog = new MessageDialog("Uspjesno ste rezervisali kafic.");
+                    await dialog.ShowAsync();
+                    Sistem.listaRezervacijaKafica.Add(nova);
+                }
+                else
+                {
+                    var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
+                    await dialog.ShowAsync();
+                }
             }
         }
         private async void rezkonacnakarata(object parameter)
@@ -277,21 +285,29 @@ namespace SarajevoGO_.ViewModel
             //cijena
             double cijena = rezkarata.brojDjece * rezkarata.mjesto.cijenaDjeca + rezkarata.brojOdraslih * rezkarata.mjesto.cijenaOdrasli;
 
-            // rezervisi
-            if(dostupnakarta == true)
+            if (Naziv == "")
             {
-                // u klasi Kultura je rezervisi bilo : brojMjesta[dan - 1] -= broj;
-                // rezkarata.mjesto.rezervisiKartu(rezkarata.brojDjece + rezkarata.brojOdraslih, rezkarata.vrijemeDolaska.Day);
-                rezkarata.mjesto.brojMjesta[dan - 1] = rezkarata.mjesto.brojMjesta[dan - 1] - rezkarata.brojDjece + rezkarata.brojOdraslih;
-                var dialog = new MessageDialog("Uspjesno ste rezervisali karte. Cijena je " + cijena + " BAM.");
-                await dialog.ShowAsync();
-                Sistem.listaRezervacijaKarte.Add(rezkarata);
-            
+                var messageDialog1 = new MessageDialog("Popunite sva polja.");
+                await messageDialog1.ShowAsync();
             }
             else
             {
-                var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
-                await dialog.ShowAsync();
+                // rezervisi
+                if (dostupnakarta == true)
+                {
+                    // u klasi Kultura je rezervisi bilo : brojMjesta[dan - 1] -= broj;
+                    // rezkarata.mjesto.rezervisiKartu(rezkarata.brojDjece + rezkarata.brojOdraslih, rezkarata.vrijemeDolaska.Day);
+                    rezkarata.mjesto.brojMjesta[dan - 1] = rezkarata.mjesto.brojMjesta[dan - 1] - rezkarata.brojDjece + rezkarata.brojOdraslih;
+                    var dialog = new MessageDialog("Uspjesno ste rezervisali karte. Cijena je " + cijena + " BAM.");
+                    await dialog.ShowAsync();
+                    Sistem.listaRezervacijaKarte.Add(rezkarata);
+
+                }
+                else
+                {
+                    var dialog = new MessageDialog("Nazalost nemamo slobodnog mjesta.");
+                    await dialog.ShowAsync();
+                }
             }
         }
 
@@ -301,7 +317,8 @@ namespace SarajevoGO_.ViewModel
             rezsmjestaj.dolazak = Dolazak;
             rezsmjestaj.odlazak = Odlazak;
             dostupnismjestaj = true;
-        
+
+            
             //primjer radi krahiranja
             Smjestaj s = (Smjestaj)Sistem.listaKategorija.Where(x => x.nazivObjekt == "Acc").FirstOrDefault();
             rezsmjestaj.smjestaj = s;
@@ -376,17 +393,50 @@ namespace SarajevoGO_.ViewModel
 
                 if (popust == true)
                 {
-                    var dialog = new MessageDialog("Uspjesno ste rezervisali smjestaj i ostvarili popust. Cijena je " + konacno + " BAM.");
-                    await dialog.ShowAsync();
-                    MyNavigationService.Navigate(typeof(RezervacijaPotvrda));
+                    if (Naziv == "")
+                    {
+                        var messageDialog1 = new MessageDialog("Popunite sva polja.");
+                        await messageDialog1.ShowAsync();
+                    }
+                    else
+                    {
+                        if (brojDana <= 0 && Naziv != "")
+                        {
+                            var messageDialog1 = new MessageDialog("Provjerite datum.");
+                            await messageDialog1.ShowAsync();
+                        }
+                        else
+                        {
+                            var dialog = new MessageDialog("Uspjesno ste rezervisali smjestaj i ostvarili popust. Cijena je " + konacno + " BAM.");
+                            await dialog.ShowAsync();
+                            MyNavigationService.Navigate(typeof(RezervacijaPotvrda));
+                        }
+                    }
                     popust = false;
                     dostupnismjestaj = true;
+
                 }
                 else
                 {
-                    var dialog = new MessageDialog("Uspjesno ste rezervisali smjestaj. Cijena je " + konacno + " BAM.");
-                    await dialog.ShowAsync();
-                    MyNavigationService.Navigate(typeof(RezervacijaPotvrda));
+                    if (Naziv == "")
+                    {
+                        var messageDialog1 = new MessageDialog("Popunite sva polja.");
+                        await messageDialog1.ShowAsync();
+                    }
+                    else
+                    {
+                        if (brojDana <= 0 && Naziv != "")
+                        {
+                            var messageDialog1 = new MessageDialog("Provjerite datum.");
+                            await messageDialog1.ShowAsync();
+                        }
+                        else
+                        {
+                            var dialog = new MessageDialog("Uspjesno ste rezervisali smjestaj. Cijena je " + konacno + " BAM.");
+                            await dialog.ShowAsync();
+                            MyNavigationService.Navigate(typeof(RezervacijaPotvrda));
+                        }
+                    }
                     popust = false;
                     dostupnismjestaj = true;
                 }

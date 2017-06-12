@@ -36,7 +36,7 @@ namespace SarajevoGO_.Model
             Kategorija k = listaKategorija.Find(x => x.nazivObjekt == naziv);
             return k;
         }
-        public static bool validacijaLoginAdmin(string username, string password)
+       /* public static bool validacijaLoginAdmin(string username, string password)
         {
             if (username.Equals("admin") && password.Equals("admin"))
                 return true;
@@ -50,7 +50,7 @@ namespace SarajevoGO_.Model
                     return true;
             }
             return false;
-        }
+        }*/
         // dodati na formu prilikom slanja rezervacije
         public static bool validirajDatume(DateTime prvi, DateTime drugi)
         {
@@ -58,10 +58,10 @@ namespace SarajevoGO_.Model
                 return false;
             return true;
         }
-        public static bool validirajSupervizora(string username)
+        /*public static bool validirajSupervizora(string username)
         {
             return !listaSupervizora.Exists(x => x.username.Equals(username));
-        }
+        }*/
         public static bool validirajObjekat(string naziv)
         {
             return !listaKategorija.Exists(x => x.nazivObjekt.Equals(naziv));

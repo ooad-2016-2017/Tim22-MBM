@@ -106,6 +106,7 @@
     <Compile Include="Model\Sistem.cs" />
     <Compile Include="Model\Supervizor.cs" />
     <Compile Include="ViewModel\AdminViewModel.cs" />
+    <Compile Include="ViewModel\BarcodeWriter.cs" />
     <Compile Include="ViewModel\GostViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />

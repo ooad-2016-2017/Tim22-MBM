@@ -15,6 +15,7 @@
                 <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/backbutton.png"/>
             </Button.Background>
         </Button>
-        <Image x:Name="image1" HorizontalAlignment="Left" Height="275" Margin="30,145,0,0" VerticalAlignment="Top" Width="300"/>
+        <Image x:Name="myImage" HorizontalAlignment="Left" Height="275" Margin="30,145,0,0" VerticalAlignment="Top" Width="300"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="150,438,0,0" VerticalAlignment="Top" Click="button_Click"/>
     </Grid>
 </Page>

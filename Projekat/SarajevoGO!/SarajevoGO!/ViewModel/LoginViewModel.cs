@@ -15,8 +15,8 @@ namespace SarajevoGO_.ViewModel
     public class LoginViewModel : INotifyPropertyChanged
     {
 
-        Korisnik user, admin;
-        
+        //Korisnik user, admin;
+        bool a;
         private String _Username;
         private String _Password;
 
@@ -48,6 +48,7 @@ namespace SarajevoGO_.ViewModel
         public LoginViewModel(MainViewModel parent)
         {
             this.parent = parent;
+            a = false;
             MyNavigationService = new NavigationService();
             BackKomanda = new RelayCommand<object>(back,canGo);
             LogovanjeKomanda = new RelayCommand<object>(log, canGo);
@@ -61,41 +62,35 @@ namespace SarajevoGO_.ViewModel
         }
         private async void log(object parametar)
         {
-            bool a = DaLiJeSupervizor();
-            if ((_Password != "Admin" && _Username != "Admin" && _Password!="" && _Username!=""))
+            
+            if (DaLiJeSupervizor())
             {
-                var messageDialog = new MessageDialog("Username/password nije ispravan!");
-                await messageDialog.ShowAsync();
+                MyNavigationService.Navigate(typeof(SupervisorTab));
             }
-            else if (_Password == "" || _Username == "")
+            else if (Username == "Admin" && Password == "Admin")
+            {
+                MyNavigationService.Navigate(typeof(AdminTab));
+            }
+            else if (Password == "" || Username == "")
             {
                 var messageDialog1 = new MessageDialog("Morate popuniti sva polja!");
                 await messageDialog1.ShowAsync();
             }
-           /* else if (a == false)
+            else 
             {
                 var messageDialog = new MessageDialog("Username/password nije ispravan!");
                 await messageDialog.ShowAsync();
-            }*/
-            
-           else if (_Username == "Admin" && _Password == "Admin" && _Password != "" && _Username != "")
-            {
-                MyNavigationService.Navigate(typeof(AdminTab));
             }
-           else if (a == true)
-            {
-                MyNavigationService.Navigate(typeof(SupervisorTab));
-            }
-            
+           // MyNavigationService.Navigate(typeof(RezervacijaKarata));
 
         }
 
         public bool DaLiJeSupervizor()
         {
-            bool a = false;
+           
             foreach (Supervizor s in Sistem.listaSupervizora)
             {
-                if (s.username == _Username && s.password ==_Password)
+                if (s.username == Username && s.password == Password)
                     a = true;
             }
             return a;

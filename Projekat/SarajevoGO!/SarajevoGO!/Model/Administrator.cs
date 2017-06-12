@@ -16,7 +16,7 @@ namespace SarajevoGO_.Model
             listaSupervizora = new List<Supervizor>();
             listaKategorija = new List<Kategorija>();
         }
-        public void dodajSupervizora(string username, string password, string tip)
+       /* public void dodajSupervizora(string username, string password, string tip)
         {
             if (Sistem.validirajSupervizora(username))
             {
@@ -25,7 +25,7 @@ namespace SarajevoGO_.Model
                 Sistem.listaSupervizora.Add(s);
             }
             else throw new Exception("Supervizor sa istim username vec postoji!");
-        }
+        }*/
         public void obrisiSupervizora(Supervizor s)
         {
             listaSupervizora.Remove(s);
