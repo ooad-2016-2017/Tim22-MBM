@@ -28,6 +28,16 @@ namespace SarajevoGO_.Helper
             var frame = (Frame)Window.Current.Content;
             frame.Navigate(sourcePage);
         }
+        public void NavigateRez(Type sourcePage)
+        {
+            var frame = (Frame)Window.Current.Content;
+            if(sourcePage == typeof(RezervacijaKafica))
+            {
+                RezervacijaKafica rez = new RezervacijaKafica();
+                rez.b1.Visibility = Visibility.Visible;
+            }
+            frame.Navigate(sourcePage);
+        }
 
         public void Navigate(Type sourcePage, object parameter)
         {

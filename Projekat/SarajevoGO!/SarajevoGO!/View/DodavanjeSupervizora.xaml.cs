@@ -35,6 +35,7 @@ namespace SarajevoGO_
                 obj.password = this.textBox1.Text;
                 //obj.ti txtIndeks.Text;
                 userTableObj.InsertAsync(obj);
+                Sistem.listaSupervizora.Add(new Supervizor(this.textBox.Text, this.textBox1.Text));
                 MessageDialog msgDialog = new MessageDialog("Uspješno ste unijeli novog supervizora.");
 
                 msgDialog.ShowAsync();

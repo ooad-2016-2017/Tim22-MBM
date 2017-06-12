@@ -11,8 +11,11 @@ namespace SarajevoGO_.Model
         public NocniZivot kafic;
         public DateTime vrijemeDolaska { get; set; }
         public Int32 brojStolova { get; set; }
+        public RezervacijaKafica() { }
+
         public RezervacijaKafica(string naziv, DateTime vrijeme, string broj)
         {
+            
             Kategorija k = Sistem.PretragaObjekata(naziv);
             if (k is NocniZivot)
                 kafic = (NocniZivot)k;
@@ -20,7 +23,7 @@ namespace SarajevoGO_.Model
             brojStolova = Convert.ToInt32(broj);
         }
 
-        public bool provjeraDostupnosti()
+        /*public bool provjeraDostupnosti()
         {
             Int32 dan = vrijemeDolaska.Day;
             return (kafic.brojStolova[dan - 1] - brojStolova >= 0);
@@ -28,6 +31,6 @@ namespace SarajevoGO_.Model
         public void rezervisi()
         {
             kafic.rezervisiSto(brojStolova, vrijemeDolaska.Day);
-        }
+        }*/
     }
 }

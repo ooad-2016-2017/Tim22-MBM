@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Xaml.Controls;
 
 namespace SarajevoGO_.Model
 {
@@ -13,9 +14,17 @@ namespace SarajevoGO_.Model
         public static List<RezervacijaSmjestaja> listaRezervacijaSmjestaja;
         public static List<Supervizor> listaSupervizora;
         public static List<Kategorija> listaKategorija;
+        
+
         static Sistem()
         {
+            Image slika = new Image();
             listaKategorija = new List<Kategorija>();
+            // PRIMJERI ZBOG KRAHIRANJA
+            listaKategorija.Add(new NocniZivot("Kafic", "Drinks", "Negdje", "stranica", "blabla", 062, slika));
+            listaKategorija.Add(new Kultura("Muzej", "Culture", "Negdje", "stranica", "blabla", 062, slika));
+            listaKategorija.Add(new Smjestaj("Krevet", "Acc", "Negdje", "stranica", "blabla", 062, slika));
+
             listaRezervacijaKafica = new List<RezervacijaKafica>();
             listaRezervacijaKarte = new List<RezervacijaKarte>();
             listaRezervacijaSmjestaja = new List<RezervacijaSmjestaja>();

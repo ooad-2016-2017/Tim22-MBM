@@ -24,10 +24,25 @@ namespace SarajevoGO_
     public sealed partial class RezervacijaKafica : Page
     {
         RezervacijaViewModel viewModel;
+        public Button b1;
+       
         public RezervacijaKafica()
         {
             this.InitializeComponent();
+            //b1 = this.button_konacno;
+           // this.text_availability.Visibility = Visibility.Collapsed;
+            //this.text_odluka.Visibility = Visibility.Collapsed;
+            //this.button_konacno.Visibility = Visibility.Collapsed;
+            //b1.Visibility = Visibility.Collapsed; 
             viewModel = new RezervacijaViewModel();
+            this.DataContext = viewModel;
         }
+
+        /*private void button_Click(object sender, RoutedEventArgs e)
+        {
+            this.button_konacno.Visibility = Visibility.Visible;
+            this.text_availability.Visibility = Visibility.Visible;
+            this.text_odluka.Visibility = Visibility.Visible;
+        }*/
     }
 }

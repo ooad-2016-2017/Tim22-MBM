@@ -3,6 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
+using System.IO;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Controls.Primitives;
+using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Navigation;
 
 namespace SarajevoGO_.Model
 {
@@ -14,6 +26,7 @@ namespace SarajevoGO_.Model
         public bool dorucak, rucak, vecera;
         public string vrstaSobe { get; set; }
         public Int32 godiste { get; set; }
+        public RezervacijaSmjestaja() { }
         public RezervacijaSmjestaja(string naziv, DateTime dol, DateTime odl, bool d, bool r, bool v, string vrsta, Int32 godine)
         {
             Kategorija k = Sistem.PretragaObjekata(naziv);
@@ -27,7 +40,7 @@ namespace SarajevoGO_.Model
             vrstaSobe = vrsta;
             godiste = godine;
         }
-        public double izracunajKonacnuCijenu()
+        /*public double izracunajKonacnuCijenu()
         {
             double brojDana = (odlazak - dolazak).TotalDays;
             double cijena = smjestaj.cijenaPoNoci;
@@ -42,51 +55,54 @@ namespace SarajevoGO_.Model
                 konacno *= 0.9;
             return konacno;
 
-        }
-        public bool provjeraDostupnosti()
-        {
-            Int32 koef;
-            if (vrstaSobe.Equals("Double room"))
-            {
-                koef = 2;
-                for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
-                {
-                    if (smjestaj.brojDvokrevetnih[i] - koef < 0)
-                        return false;
-                }
-            }
-            else if (vrstaSobe.Equals("Triple room"))
-            {
-                koef = 3;
-                for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
-                {
-                    if (smjestaj.brojTrokrevetnih[i] - koef < 0)
-                        return false;
-                }
-            }
-            else
-            {
-                koef = 4;
-                for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
-                {
-                    if (smjestaj.brojCetverokrevetnih[i] - koef < 0)
-                        return false;
-                }
-            }
-            return true;
-        }
+        }*/
+        /*  public bool provjeraDostupnosti()
+          {
+              Int32 koef;
+              if (vrstaSobe.Equals("Double room"))
+              {
+                  koef = 2;
+                  for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
+                  {
+                      if (smjestaj.brojDvokrevetnih[i] - koef < 0)
+                          return false;
+                  }
+              }
+              else if (vrstaSobe.Equals("Triple room"))
+              {
+                  koef = 3;
+                  for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
+                  {
+                      if (smjestaj.brojTrokrevetnih[i] - koef < 0)
+                          return false;
+                  }
+              }
+              else
+              {
+                  koef = 4;
+                  for (int i = dolazak.Day - 1; i < odlazak.Day - 1; i++)
+                  {
+                      if (smjestaj.brojCetverokrevetnih[i] - koef < 0)
+                          return false;
+                  }
+              }
+              return true;
+          }
+
+
+              public bool popust()
+          {
+              return (godiste >= 18 && godiste <= 25);
+          }
+
+         public void rezervisi()
+          {
+              smjestaj.rezervisiSmjestaj(vrstaSobe, dolazak.Day, odlazak.Day);
+          }*/
+
         public void generisiQRKod()
         {
             // sljedeci projektni
-        }
-        public bool popust()
-        {
-            return (godiste >= 18 && godiste <= 25);
-        }
-
-        public void rezervisi()
-        {
-            smjestaj.rezervisiSmjestaj(vrstaSobe, dolazak.Day, odlazak.Day);
         }
     }
 }

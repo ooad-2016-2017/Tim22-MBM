@@ -17,6 +17,7 @@ namespace SarajevoGO_.Model
         public Int32 telefon { get; set; }
         public Image slika { get; set; }
 
+        public Kategorija() { }
         public Kategorija(String vrsta, String naziv, String adr, String www, String detalji, Int32 tel, Image sl)
         {
             tip = vrsta;

@@ -28,6 +28,7 @@ namespace SarajevoGO_
         {
             this.InitializeComponent();
             viewModel = new RezervacijaViewModel();
+            this.DataContext = viewModel;
         }
     }
 }

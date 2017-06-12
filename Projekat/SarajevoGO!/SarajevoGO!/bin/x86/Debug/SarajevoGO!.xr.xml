@@ -1,9 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Date" />
+    <RootPropertyPathName Name="Odlazak" />
+    <RootPropertyPathName Name="Dolazak" />
+  </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
       <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Resources" />
     </RootType>
+    <RootType FullName="SarajevoGO_.DateTimeToDateTimeOffsetConverter" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Content" />
     </RootType>
@@ -66,7 +76,6 @@
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="PlaceholderText" />
-      <RootProperty Name="RenderTransform" />
       <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -136,6 +145,9 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
       <RootProperty Name="Items" />
+      <RootProperty Name="IsSynchronizedWithCurrentItem" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
       <RootProperty Name="RenderTransformOrigin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
@@ -152,7 +164,6 @@
       <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="SarajevoGO_.CreatePlace" />
-    <RootType FullName="SarajevoGO_.CreatePlaceMapa" />
     <RootType FullName="SarajevoGO_.Currencies" />
     <RootType FullName="SarajevoGO_.KulturaZaAdmina" />
     <RootType FullName="SarajevoGO_.KulturaZaGosta" />
@@ -183,14 +194,19 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Date" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="UpdateSourceTrigger" />
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Converter" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Documents.Run">
       <RootProperty Name="Text" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Documents.LineBreak" />
     <RootType FullName="SarajevoGO_.RezervacijaKafica" />
-    <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
-      <RootProperty Name="ScaleY" />
-    </RootType>
     <RootType FullName="SarajevoGO_.RezervacijaKarata" />
     <RootType FullName="SarajevoGO_.RezervacijaPotvrda" />
     <RootType FullName="Windows.UI.Xaml.Controls.CheckBox">
@@ -200,6 +216,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="IsChecked" />
     </RootType>
     <RootType FullName="SarajevoGO_.RezervacijaSmjestaja" />
     <RootType FullName="SarajevoGO_.Search" />

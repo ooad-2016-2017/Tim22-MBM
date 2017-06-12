@@ -14,7 +14,7 @@ namespace SarajevoGO_.ViewModel
     public class LoginViewModel : INotifyPropertyChanged
     {
 
-        Korisnik user;
+        Korisnik user, admin;
         
         private String _Username;
         private String _Password;
@@ -60,14 +60,19 @@ namespace SarajevoGO_.ViewModel
 
         private void log(object parameter)
         {
-            
-           /* foreach (Korisnik k in Sistem.listaSupervizora) {
-                if (k is Supervizor) MyNavigationService.Navigate(typeof(SupervisorTab));
-                else if (k is Administrator) MyNavigationService.Navigate(typeof(AdminTab));
-            }*/
-            
-            //MyNavigationService.Navigate(typeof(SupervisorTab));
-            MyNavigationService.Navigate(typeof(AdminTab));
+
+            /*user = Sistem.listaSupervizora.Where(x => x.username == Username && x.password == Password).FirstOrDefault();
+            if (user!=null){
+               MyNavigationService.Navigate(typeof(SupervisorTab));
+            }
+
+            if(Username == "Admin" && Password == "Admin")
+              {
+                  MyNavigationService.Navigate(typeof(AdminTab));
+              }*/
+
+            MyNavigationService.Navigate(typeof(RezervacijaSmjestaja));
+            //MyNavigationService.Navigate(typeof(AdminTab));
         }
 
         private void back(object parameter)

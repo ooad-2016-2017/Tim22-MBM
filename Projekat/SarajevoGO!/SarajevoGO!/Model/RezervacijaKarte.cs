@@ -12,6 +12,7 @@ namespace SarajevoGO_.Model
         public int brojOdraslih { get; set; }
         public int brojDjece { get; set; }
         public DateTime vrijemeDolaska { get; set; }
+        public RezervacijaKarte() { }
         public RezervacijaKarte(string naziv, string odrasli, string djeca, DateTime dolazak)
         {
             Kategorija k = Sistem.PretragaObjekata(naziv);
@@ -21,7 +22,7 @@ namespace SarajevoGO_.Model
             brojDjece = Convert.ToInt32(djeca);
             vrijemeDolaska = dolazak;
         }
-        public bool provjeraDostupnosti()
+        /*public bool provjeraDostupnosti()
         {
             int dan = vrijemeDolaska.Day;
             return (mjesto.brojMjesta[dan - 1] - brojDjece - brojOdraslih >= 0);
@@ -34,6 +35,6 @@ namespace SarajevoGO_.Model
         public void rezervisi()
         {
             mjesto.rezervisiKartu(brojDjece + brojOdraslih, vrijemeDolaska.Day);
-        }
+        }*/
     }
 }

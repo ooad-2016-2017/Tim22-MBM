@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>552189ce-5960-40fc-b49d-bd28e0d3a155</PackageIdentityName>
     <PackageIdentityPublisher>CN=Korisnik</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\bin\x86\Debug\SarajevoGO!.exe">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\bin\x86\Debug\SarajevoGO!.exe">
       <PackagePath>entrypoint\SarajevoGO!.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Korisnik\.nuget\packages\EntityFramework.Core\7.0.0-beta6\lib\dotnet\EntityFramework.Core.dll">
@@ -406,154 +406,154 @@
     <AppxPackagedFile Include="C:\Users\Korisnik\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\accom.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\accom.png">
       <PackagePath>Assets\accom.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\activity.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\activity.png">
       <PackagePath>Assets\activity.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\admin.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\admin.png">
       <PackagePath>Assets\admin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\adminShop.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\adminShop.png">
       <PackagePath>Assets\adminShop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\adresa.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\adresa.png">
       <PackagePath>Assets\adresa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\backbutton.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\backbutton.png">
       <PackagePath>Assets\backbutton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\bed.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\bed.png">
       <PackagePath>Assets\bed.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\bijelo.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\bijelo.png">
       <PackagePath>Assets\bijelo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\calendar.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\calendar.png">
       <PackagePath>Assets\calendar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\check.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\check.png">
       <PackagePath>Assets\check.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\create.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\create.png">
       <PackagePath>Assets\create.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\createplace.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\createplace.png">
       <PackagePath>Assets\createplace.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\createplacebutton.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\createplacebutton.png">
       <PackagePath>Assets\createplacebutton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\culture.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\culture.png">
       <PackagePath>Assets\culture.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\dolar.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\dolar.png">
       <PackagePath>Assets\dolar.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\dragthepoint.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\dragthepoint.png">
       <PackagePath>Assets\dragthepoint.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\drink.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\drink.png">
       <PackagePath>Assets\drink.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\food.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\food.png">
       <PackagePath>Assets\food.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\fooddrink.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\fooddrink.png">
       <PackagePath>Assets\fooddrink.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\homebutton.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\homebutton.png">
       <PackagePath>Assets\homebutton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\house.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\house.png">
       <PackagePath>Assets\house.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\info.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\info.png">
       <PackagePath>Assets\info.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\internet.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\internet.png">
       <PackagePath>Assets\internet.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\login.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\login.png">
       <PackagePath>Assets\login.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\logo.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\logo.png">
       <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\mapa.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\mapa.png">
       <PackagePath>Assets\mapa.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\mapaPoint.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\mapaPoint.png">
       <PackagePath>Assets\mapaPoint.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\menu.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\menu.png">
       <PackagePath>Assets\menu.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\night.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\night.png">
       <PackagePath>Assets\night.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\nightAdmin.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\nightAdmin.png">
       <PackagePath>Assets\nightAdmin.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\phoneglass.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\phoneglass.png">
       <PackagePath>Assets\phoneglass.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\rezervacije.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\rezervacije.png">
       <PackagePath>Assets\rezervacije.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\searchbutton.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\searchbutton.png">
       <PackagePath>Assets\searchbutton.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\select.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\select.png">
       <PackagePath>Assets\select.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\shop.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\shop.png">
       <PackagePath>Assets\shop.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\Shopping.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\Shopping.png">
       <PackagePath>Assets\Shopping.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\sport.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\sport.png">
       <PackagePath>Assets\sport.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\ssearch.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\ssearch.png">
       <PackagePath>Assets\ssearch.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\supervisor.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\supervisor.png">
       <PackagePath>Assets\supervisor.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Assets\bascarsija.jpg">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Assets\bascarsija.jpg">
       <PackagePath>Assets\bascarsija.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Korisnik\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.xml">
@@ -562,17 +562,17 @@
     <AppxPackagedFile Include="C:\Users\Korisnik\.nuget\packages\EntityFramework.Commands\7.0.0-beta6\lib\net45\EntityFramework.Commands.dll">
       <PackagePath>EntityFramework.Commands.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\bin\x86\Debug\SarajevoGO!.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\bin\x86\Debug\SarajevoGO!.xr.xml">
       <PackagePath>SarajevoGO!.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\SG\SarajevoGO!\SarajevoGO!\bin\x86\Debug\Core\SarajevoGO!.exe">
+    <AppxPackagedFile Include="C:\Users\Korisnik\Desktop\Tim22-MBM\Projekat\SarajevoGO!\SarajevoGO!\bin\x86\Debug\Core\SarajevoGO!.exe">
       <PackagePath>SarajevoGO!.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

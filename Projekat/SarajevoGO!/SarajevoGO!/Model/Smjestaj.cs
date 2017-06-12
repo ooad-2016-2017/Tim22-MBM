@@ -19,7 +19,7 @@ namespace SarajevoGO_.Model
             cijenaPoNoci = cijena;
             brojDvokrevetnih = brojTrokrevetnih = brojCetverokrevetnih = Enumerable.Repeat(5, 31).ToArray();
         }
-        public void rezervisiSmjestaj(string vrstaSobe, Int32 danDolaska, Int32 danOdlaska)
+       /* public void rezervisiSmjestaj(string vrstaSobe, Int32 danDolaska, Int32 danOdlaska)
         {
             if (vrstaSobe.Equals("Double room"))
                 for (int i = danDolaska - 1; i < danOdlaska - 1; i++) // smanjuje broj soba izmedju dva datuma za 1
@@ -30,6 +30,6 @@ namespace SarajevoGO_.Model
             else
                 for (int i = danDolaska - 1; i < danOdlaska - 1; i++)
                     brojCetverokrevetnih[i]--;
-        }
+        }*/
     }
 }

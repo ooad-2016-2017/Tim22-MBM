@@ -10,6 +10,7 @@ namespace SarajevoGO_.Helper
     {
         void Navigate(Type sourcePage);
         void Navigate(Type sourcePage, object parameter);
+        void NavigateRez(Type sourcePage);
         void GoBack();
     }
 }

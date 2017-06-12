@@ -20,9 +20,9 @@ namespace SarajevoGO_.Model
             brojMjesta = Enumerable.Repeat(50, 31).ToArray();
         }
 
-        public void rezervisiKartu(Int32 broj, Int32 dan)
+        /*public void rezervisiKartu(Int32 broj, Int32 dan)
         {
             brojMjesta[dan - 1] -= broj;
-        }
+        }*/
     }
 }

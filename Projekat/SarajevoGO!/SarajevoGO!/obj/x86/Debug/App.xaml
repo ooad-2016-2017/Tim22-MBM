@@ -5,5 +5,9 @@
     xmlns:local="using:SarajevoGO_"
     RequestedTheme="Light">
 
+    <Application.Resources>
+        <local:DateTimeToDateTimeOffsetConverter x:Key="DateTimeToDateTimeOffsetConverter"></local:DateTimeToDateTimeOffsetConverter>
+    </Application.Resources>
+
 </Application>
 
